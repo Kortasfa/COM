@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T08:08:21.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="CwVhbpKUZwPqI505Iv4V" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T08:16:45.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="91Y7RSQgUSZ8Lo2IAsgh" version="21.7.2" type="github">
   <diagram name="Page-1" id="tSNvVeP32w1JNduM2oPn">
-    <mxGraphModel dx="743" dy="460" grid="0" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="783" grid="0" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -155,9 +155,6 @@
         <mxCell id="MV5Gk9YvVKDqXP2EczdR-39" value="Прозрачность" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="774" y="666" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MV5Gk9YvVKDqXP2EczdR-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.574;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MV5Gk9YvVKDqXP2EczdR-45" target="MV5Gk9YvVKDqXP2EczdR-56">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="MV5Gk9YvVKDqXP2EczdR-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MV5Gk9YvVKDqXP2EczdR-45" target="MV5Gk9YvVKDqXP2EczdR-55">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -172,11 +169,14 @@
         <mxCell id="MV5Gk9YvVKDqXP2EczdR-47" value="Записывает любое изм." style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="105" y="347" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MV5Gk9YvVKDqXP2EczdR-55" value="Для слайдов" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="MV5Gk9YvVKDqXP2EczdR-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MV5Gk9YvVKDqXP2EczdR-55" target="MV5Gk9YvVKDqXP2EczdR-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MV5Gk9YvVKDqXP2EczdR-55" value="Слайда/ов" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="416" y="352" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MV5Gk9YvVKDqXP2EczdR-56" value="Для объектов" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="597" y="352" width="100" height="40" as="geometry" />
+        <mxCell id="MV5Gk9YvVKDqXP2EczdR-56" value="Объекта/ов" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="416" y="410" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MV5Gk9YvVKDqXP2EczdR-60" value="Номер" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="220" y="338" width="100" height="40" as="geometry" />
