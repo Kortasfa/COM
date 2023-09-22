@@ -14,28 +14,37 @@ type TextBlock = Block & {
     chars: Char[];
 };
 
+type PictureBase64 = {
+    PictureBase64: string;
+};
+
+type PictureUrl = {
+    PictureUrl: string;
+}
+
 type ImageBlock = Block & {
     type: "image";
     ID: number;
-    src: string;
+    src: PictureBase64| PictureUrl;
     opacity: number;
+
 };
 
-type squareFigure = {
-    typeOfFigure: string;
-} 
+// type squareFigure = {
+//     typeOfFigure: string;
+// } 
 
-type triangleFigure = {
-    typeOfFigure: string;
-} 
-type circleFigure = {
-    typeOfFigure: string;    
-} 
+// type triangleFigure = {
+//     typeOfFigure: string;
+// } 
+// type circleFigure = {
+//     typeOfFigure: string;    
+// } 
 
 type Figure = {
-    square: squareFigure;
-    triangle: triangleFigure;
-    circle: circleFigure; 
+    // square: squareFigure;
+    // triangle: triangleFigure;
+    // circle: circleFigure; 
 }
 
 type GraphicObject = Block & {
@@ -67,7 +76,7 @@ type BackgroundColor = {
 
 type Slide = {
     ID: number;
-    background: BackgroundBase64| BackgroundUrl | BackgroundColor;
+    background: BackgroundBase64| BackgroundUrl | BackgroundColor;  
     objects: Array<Block>;
 };
 
