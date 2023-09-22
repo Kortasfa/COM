@@ -1,8 +1,3 @@
-type Char = {
-    type: "text";
-    value: string;
-};
-
 type PictureBase64 = {
     PictureBase64: string;
 };
@@ -11,40 +6,20 @@ type PictureUrl = {
     PictureUrl: string;
 }
 
-type square = {
-    typeOfFigure: string;
-}
-
-type triangle = {
-    typeOfFigure: string;
-}
-type circle = {
-    typeOfFigure: string;
-}
-
-type Figure = {
-    ID: number;
-    figure: square | triangle | circle
-    endX: number;
-    endY: number;
-}
-
-type GraphicObject = Block & {
-    ID: number;
+type GraphicObject = {
     fillColor: string;
-    figures: Array<Figure>;
-    data: Object;
+    figureValue: "square" | "triangle" | "circle";
 };
 
-type ImageBlock = Block & {
+type ImageBlock =  {
     type: "image";
-    ID: number;
     src: PictureBase64| PictureUrl;
     opacity: number;
 };
 
-type TextBlock = Block & {
-    ID: number;
+type TextBlock = {
+    type: "text";
+    value: string;
     fillColor: string;
     textColor: string;
     textFont: string;
@@ -53,11 +28,11 @@ type TextBlock = Block & {
     textUnderlines: boolean;
     textItalic: boolean;
     textHighlight: string;
-    chars: Char[];
 };
 
 type Block = {
-    blockType: TextBlock | ImageBlock | GraphicObject;
+    ID: number;
+    blockContent: TextBlock | ImageBlock | GraphicObject;
     borderSize: number;
     borderColor: string;
     coordinatesX: number;
@@ -72,7 +47,6 @@ type BackgroundColor = {
 
 type Slide = {
     ID: number;
-    position: number;
     background: PictureBase64| PictureUrl | BackgroundColor;
     objects: Array<Block>;
 };
@@ -82,26 +56,26 @@ type Doc = {
     name: string;
 };
 
-type Action = {
-    ID: number;
-    selectId: Array<Selection>; 
-    actionType: {
-        move: string;
-        resize: string;
-        delete: string;
-        add: string;
-    }
-    startPoint: string; // undo
-    endPoint: string; // redo
-}
+// type Action = {
+//     ID: number;
+//     selectId: Array<Selection>;
+//     actionType: {
+//         move: string;
+//         resize: string;
+//         delete: string;
+//         add: string;
+//     }
+//     startPoint: string; // undo
+//     endPoint: string; // redo
+// }
 
 type SelectionSlide = {
     selectSlide: number;
-    selectObject: Array<Number>;
+    selectObject: Array<number>;
 };
 
 type Editor = {
-    history: Array<Action>
+    //history: Array<Action> //empty
     selection: Array<SelectionSlide>;
     doc: Doc;
 };
