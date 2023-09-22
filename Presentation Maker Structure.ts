@@ -2,15 +2,14 @@ type Char = {
     type: "text";
     value: string; 
     fontFamily: string;
-    fontSize: number; 
-    color: string; 
     bold: boolean;
 };
 
 type TextBlock = Block & {
     type: "text";
     ID: number;
-    color: string;
+    fontSize: number; 
+    color: string; 
     chars: Char[];
 };
 
@@ -30,21 +29,22 @@ type ImageBlock = Block & {
 
 };
 
-// type squareFigure = {
-//     typeOfFigure: string;
-// } 
+type square = {
+    typeOfFigure: string;
+} 
 
-// type triangleFigure = {
-//     typeOfFigure: string;
-// } 
-// type circleFigure = {
-//     typeOfFigure: string;    
-// } 
+type triangle = {
+    typeOfFigure: string;
+} 
+type circle = {
+    typeOfFigure: string;    
+} 
 
 type Figure = {
-    // square: squareFigure;
-    // triangle: triangleFigure;
-    // circle: circleFigure; 
+    figure: square | triangle | circle 
+    endX: number;
+    endY: number;
+    id: number;
 }
 
 type GraphicObject = Block & {
