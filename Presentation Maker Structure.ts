@@ -1,35 +1,6 @@
 type Char = {
     type: "text";
-    value: string; 
-    fontFamily: string;
-    bold: boolean;
-};
-
-type Block = {
-    blockType: TextBlock | ImageBlock | GraphicObject;
-    borderSize: number;
-    borderColor: string;
-    coordinatesX: number;
-    coordinatesY: number;
-    size: number;
-};
-
-type TextBlock = Block & {
-    type: "text";
-    ID: number;
-<<<<<<< HEAD
-    fontSize: number; 
-    color: string; 
-=======
-    color: string;
-    textFont: string;
-    textSize: number;
-    textBoldness: boolean;
-    textUnderlines: boolean;
-    textItalic: boolean;
-    textHighlight: string;
->>>>>>> 3676bb26f4e3ae139d5e31bfb34200aea597949a
-    chars: Char[];
+    value: string;
 };
 
 type PictureBase64 = {
@@ -40,46 +11,60 @@ type PictureUrl = {
     PictureUrl: string;
 }
 
+type square = {
+    typeOfFigure: string;
+}
+
+type triangle = {
+    typeOfFigure: string;
+}
+type circle = {
+    typeOfFigure: string;
+}
+
+type Figure = {
+    ID: number;
+    figure: square | triangle | circle
+    endX: number;
+    endY: number;
+}
+
+type GraphicObject = Block & {
+    ID: number;
+    fillColor: string;
+    figures: Array<Figure>;
+    data: Object;
+};
+
 type ImageBlock = Block & {
     type: "image";
     ID: number;
     src: PictureBase64| PictureUrl;
     opacity: number;
-
 };
 
-type square = {
-    typeOfFigure: string;
-} 
-
-type triangle = {
-    typeOfFigure: string;
-} 
-type circle = {
-    typeOfFigure: string;    
-} 
-
-type Figure = {
-    figure: square | triangle | circle 
-    endX: number;
-    endY: number;
-    id: number;
-}
-
-type GraphicObject = Block & {
+type TextBlock = Block & {
     ID: number;
-    color: string;
-    figures: Array<Figure>;
-    data: Object;
+    fillColor: string;
+    textColor: string;
+    textFont: string;
+    textSize: number;
+    textBoldness: boolean;
+    textUnderlines: boolean;
+    textItalic: boolean;
+    textHighlight: string;
+    chars: Char[];
 };
 
-type BackgroundBase64 = {
-    backgroundBase64: string;
-}
-
-type BackgroundUrl = {
-    BackgroundUrl: string;
-}
+type Block = {
+    blockType: TextBlock | ImageBlock | GraphicObject;
+    borderSize: number;
+    borderColor: string;
+    coordinatesX: number;
+    coordinatesY: number;
+    sizeX: number;
+    sizeY: number;
+};
 
 type BackgroundColor = {
     BackgroundColor: string;
@@ -87,7 +72,8 @@ type BackgroundColor = {
 
 type Slide = {
     ID: number;
-    background: BackgroundBase64| BackgroundUrl | BackgroundColor;  
+    position: number;
+    background: PictureBase64| PictureUrl | BackgroundColor;
     objects: Array<Block>;
 };
 
@@ -121,4 +107,3 @@ type Editor = {
 };
 
 export { Editor };
- 
