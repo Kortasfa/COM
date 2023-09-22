@@ -7,10 +7,25 @@ type Char = {
     bold: boolean;
 };
 
+type Block = {
+    blockType: TextBlock | ImageBlock | GraphicObject;
+    borderSize: number;
+    borderColor: string;
+    coordinatesX: number;
+    coordinatesY: number;
+    size: number;
+};
+
 type TextBlock = Block & {
     type: "text";
     ID: number;
     color: string;
+    textFont: string;
+    textSize: number;
+    textBoldness: boolean;
+    textUnderlines: boolean;
+    textItalic: boolean;
+    textHighlight: string;
     chars: Char[];
 };
 
@@ -52,14 +67,6 @@ type GraphicObject = Block & {
     color: string;
     figures: Array<Figure>;
     data: Object;
-};
-
-type Block = {
-    blockType: TextBlock | ImageBlock | GraphicObject;
-    colorBorder: string;
-    coordinatesX: number;
-    coordinatesY: number;
-    size: number;
 };
 
 type BackgroundBase64 = {
