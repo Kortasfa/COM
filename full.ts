@@ -1,4 +1,3 @@
-import "./PresentationMakerStructure"
 import {PictureBase64} from "./PresentationMakerStructure";
 import {PictureUrl} from "./PresentationMakerStructure";
 import {GraphicObject} from "./PresentationMakerStructure";
@@ -103,7 +102,7 @@ const textBlock_3: TextBlock = {
   textSize: 12,
   textBoldness: false,
   textUnderlines: true,
-  textItalic: false,
+  textItalic: true,
   textHighlight: "#FFFF00"
 };
 

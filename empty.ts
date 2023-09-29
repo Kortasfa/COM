@@ -1,4 +1,3 @@
-import "./PresentationMakerStructure"
 import {Doc} from "./PresentationMakerStructure";
 import {Editor} from "./PresentationMakerStructure";
 

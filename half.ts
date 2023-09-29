@@ -1,4 +1,3 @@
-import "./PresentationMakerStructure"
 import {PictureBase64} from "./PresentationMakerStructure";
 import {PictureUrl} from "./PresentationMakerStructure";
 import {GraphicObject} from "./PresentationMakerStructure";
