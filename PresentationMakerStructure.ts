@@ -81,5 +81,15 @@ type Editor = {
 };
 
 export {
+    PictureBase64,
+    PictureUrl,
+    GraphicObject,
+    ImageBlock,
+    TextBlock,
+    Block,
+    BackgroundColor,
+    Slide,
+    Doc,
+    SelectionSlide,
     Editor
 };
