@@ -8,7 +8,7 @@ type PictureUrl = {
 
 type GraphicObject = {
     fillColor: string;
-    figureValue: "square" | "triangle" | "circle";
+    figureType: "rectangle" | "triangle" | "circle";
 };
 
 type ImageBlock =  {
@@ -80,4 +80,6 @@ type Editor = {
     doc: Doc;
 };
 
-export { Editor };
+export {
+    Editor
+};
