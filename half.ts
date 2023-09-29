@@ -21,7 +21,7 @@ const pictureUrl: PictureUrl = {
 
 const graphicObject: GraphicObject = {
   fillColor: "#00FF00",
-  figureType: "rectangle"
+  graphicObjectType: "rectangle"
 };
 
 const imageBlock: ImageBlock = {
@@ -30,7 +30,7 @@ const imageBlock: ImageBlock = {
   opacity: 0.8
 };
 
-const textBlock: TextBlock = {
+const textBlock_1: TextBlock = {
   type: "text",
   value: "Hello, World!",
   fillColor: "#0000FF",
@@ -41,49 +41,6 @@ const textBlock: TextBlock = {
   textUnderlines: false,
   textItalic: false,
   textHighlight: "#FFFF00"
-};
-
-const block: Block_1 = {
-  ID: 1,
-  blockContent: textBlock,
-  borderSize: 2,
-  borderColor: "#FF0000",
-  coordinatesX: 10,
-  coordinatesY: 20,
-  sizeX: 100,
-  sizeY: 50
-};
-
-const backgroundColor_1: BackgroundColor = {
-  BackgroundColor: "#CCCCCC"
-};
-
-const slide_1: Slide = {
-  slideID: 1,
-  slideContent: [block],
-  background: backgroundColor_1
-};
-
-const block_2: Block = {
-  ID: 2,
-  blockContent: imageBlock,
-  borderSize: 1,
-  borderColor: "#00FFFF",
-  coordinatesX: 50,
-  coordinatesY: 30,
-  sizeX: 120,
-  sizeY: 80
-};
-
-
-const backgroundColor: BackgroundColor = {
-  BackgroundColor: "#FFFFFFF"
-};
-
-const slide_2: Slide = {
-  slideID: 2,
-  slideContent: [block_2, block],
-  background: backgroundColor_2
 };
 
 const textBlock_2: TextBlock = {
@@ -99,6 +56,28 @@ const textBlock_2: TextBlock = {
   textHighlight: "#00FFFF"
 };
 
+const block_1: Block = {
+  ID: 1,
+  blockContent: textBlock_1,
+  borderSize: 2,
+  borderColor: "#FF0000",
+  coordinatesX: 10,
+  coordinatesY: 20,
+  sizeX: 100,
+  sizeY: 50
+};
+
+const block_2: Block = {
+  ID: 2,
+  blockContent: imageBlock,
+  borderSize: 1,
+  borderColor: "#00FFFF",
+  coordinatesX: 50,
+  coordinatesY: 30,
+  sizeX: 120,
+  sizeY: 80
+};
+
 const block_3: Block = {
   ID: 3,
   blockContent: textBlock_2,
@@ -110,10 +89,30 @@ const block_3: Block = {
   sizeY: 60
 };
 
+const backgroundColor_1: BackgroundColor = {
+  BackgroundColor: "#CCCCCC"
+};
+
+const backgroundColor_2: BackgroundColor = {
+  BackgroundColor: "#FFFFFFF"
+};
+
+const slide_1: Slide = {
+  ID: 1,
+  objects: [block_1],
+  background: backgroundColor_1
+};
+
+const slide_2: Slide = {
+  ID: 2,
+  objects: [block_2, block_3],
+  background: backgroundColor_2
+};
+
 const slide_3: Slide = {
-  slideID: 3,
-  slideContent: [block, block2, block3],
-  background: backgroundColor
+  ID: 3,
+  objects: [block_1, block_2, block_3],
+  background: backgroundColor_2
 };
 
 const doc: Doc = {
@@ -137,10 +136,14 @@ export {
   pictureUrl,
   graphicObject,
   imageBlock,
-  textBlock,
-  block,
-  backgroundColor,
-  slide,
+  slide_1,
+  slide_2,
+  slide_3,
+  textBlock_1,
+  textBlock_2,
+  block_1,
+  block_2,
+  block_3,
   doc,
   selectionSlide,
   editor

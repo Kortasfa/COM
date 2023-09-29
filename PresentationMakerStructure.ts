@@ -8,7 +8,7 @@ type PictureUrl = {
 
 type GraphicObject = {
     fillColor: string;
-    figureType: "rectangle" | "triangle" | "circle";
+    graphicObjectType: "rectangle" | "triangle" | "circle";
 };
 
 type ImageBlock =  {
@@ -52,7 +52,7 @@ type Slide = {
 };
 
 type Doc = {
-    slides: Slide[];
+    slides: Array<Slide>;
     name: string;
 };
 
