@@ -26,5 +26,8 @@
     "stylelint-order": "^6.0.3",
     "stylelint-prettier": "^4.0.2",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "chmod": "^0.2.1"
   }
 }
