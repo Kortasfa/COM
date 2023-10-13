@@ -1,60 +1,60 @@
-type PictureBase64 = {
-    PictureBase64: string;
-};
-
-type PictureUrl = {
-    PictureUrl: string;
+interface PictureBase64 {
+  PictureBase64: string;
 }
 
-type GraphicObject = {
-    fillColor: string;
-    graphicObjectType: "rectangle" | "triangle" | "circle";
-};
-
-type ImageBlock =  {
-    type: "image";
-    src: PictureBase64| PictureUrl;
-    opacity: number;
-};
-
-type TextBlock = {
-    type: "text";
-    value: string;
-    fillColor: string;
-    textColor: string;
-    textFont: string;
-    textSize: number;
-    textBoldness: boolean;
-    textUnderlines: boolean;
-    textItalic: boolean;
-    textHighlight: string;
-};
-
-type Block = {
-    ID: number;
-    blockContent: TextBlock | ImageBlock | GraphicObject;
-    borderSize: number;
-    borderColor: string;
-    coordinatesX: number;
-    coordinatesY: number;
-    sizeX: number;
-    sizeY: number;
-};
-
-type BackgroundColor = {
-    BackgroundColor: string;
+interface PictureUrl {
+  PictureUrl: string;
 }
 
-type Slide = {
-    ID: number;
-    background: PictureBase64| PictureUrl | BackgroundColor;
-    objects: Array<Block>;
-};
+interface GraphicObject {
+  fillColor: string;
+  graphicObjectType: "rectangle" | "triangle" | "circle";
+}
 
-type Doc = {
-    slides: Array<Slide>;
-    name: string;
-};
+interface ImageBlock {
+  type: "image";
+  src: PictureBase64 | PictureUrl;
+  opacity: number;
+}
+
+interface TextBlock {
+  type: "text";
+  value: string;
+  fillColor: string;
+  textColor: string;
+  textFont: string;
+  textSize: number;
+  textBoldness: boolean;
+  textUnderlines: boolean;
+  textItalic: boolean;
+  textHighlight: string;
+}
+
+interface Block {
+  ID: number;
+  blockContent: TextBlock | ImageBlock | GraphicObject;
+  borderSize: number;
+  borderColor: string;
+  coordinatesX: number;
+  coordinatesY: number;
+  sizeX: number;
+  sizeY: number;
+}
+
+interface BackgroundColor {
+  BackgroundColor: string;
+}
+
+interface Slide {
+  ID: number;
+  background: PictureBase64 | PictureUrl | BackgroundColor;
+  objects: Block[];
+}
+
+interface Doc {
+  slides: Slide[];
+  name: string;
+}
 
 // type Action = {
 //     ID: number;
@@ -69,27 +69,27 @@ type Doc = {
 //     endPoint: string; // redo
 // }
 
-type SelectionSlide = {
-    selectSlide: number;
-    selectObject: Array<number>;
-};
+interface SelectionSlide {
+  selectSlide: number;
+  selectObject: number[];
+}
 
-type Editor = {
-    //history: Array<Action> //empty
-    selection: Array<SelectionSlide>;
-    doc: Doc;
-};
+interface Editor {
+  // history: Array<Action> //empty
+  selection: SelectionSlide[];
+  doc: Doc;
+}
 
-export {
-    PictureBase64,
-    PictureUrl,
-    GraphicObject,
-    ImageBlock,
-    TextBlock,
-    Block,
-    BackgroundColor,
-    Slide,
-    Doc,
-    SelectionSlide,
-    Editor
+export type {
+  PictureBase64,
+  PictureUrl,
+  GraphicObject,
+  ImageBlock,
+  TextBlock,
+  Block,
+  BackgroundColor,
+  Slide,
+  Doc,
+  SelectionSlide,
+  Editor,
 };
