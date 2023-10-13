@@ -32,7 +32,7 @@ const imageBlock: ImageBlock = {
   opacity: 0.8,
 };
 
-const textBlock_1: TextBlock = {
+const textBlock1: TextBlock = {
   type: "text",
   value: "Hello, World!",
   fillColor: "#0000FF",
@@ -45,7 +45,7 @@ const textBlock_1: TextBlock = {
   textHighlight: "#FFFF00",
 };
 
-const textBlock_2: TextBlock = {
+const textBlock2: TextBlock = {
   type: "text",
   value: "Slide 3 Content",
   fillColor: "#FF00FF",
@@ -58,9 +58,9 @@ const textBlock_2: TextBlock = {
   textHighlight: "#00FFFF",
 };
 
-const block_1: Block = {
+const block1: Block = {
   ID: 1,
-  blockContent: textBlock_1,
+  blockContent: textBlock1,
   borderSize: 2,
   borderColor: "#FF0000",
   coordinatesX: 10,
@@ -69,7 +69,7 @@ const block_1: Block = {
   sizeY: 50,
 };
 
-const block_2: Block = {
+const block2: Block = {
   ID: 2,
   blockContent: imageBlock,
   borderSize: 1,
@@ -80,9 +80,9 @@ const block_2: Block = {
   sizeY: 80,
 };
 
-const block_3: Block = {
+const block3: Block = {
   ID: 3,
-  blockContent: textBlock_2,
+  blockContent: textBlock2,
   borderSize: 3,
   borderColor: "#00FF00",
   coordinatesX: 30,
@@ -91,34 +91,34 @@ const block_3: Block = {
   sizeY: 60,
 };
 
-const backgroundColor_1: BackgroundColor = {
+const backgroundColor1: BackgroundColor = {
   BackgroundColor: "#CCCCCC",
 };
 
-const backgroundColor_2: BackgroundColor = {
+const backgroundColor2: BackgroundColor = {
   BackgroundColor: "#FFFFFFF",
 };
 
-const slide_1: Slide = {
+const slide1: Slide = {
   ID: 1,
-  objects: [block_1],
-  background: backgroundColor_1,
+  objects: [block1],
+  background: backgroundColor1,
 };
 
-const slide_2: Slide = {
+const slide2: Slide = {
   ID: 2,
-  objects: [block_2, block_3],
-  background: backgroundColor_2,
+  objects: [block2, block3],
+  background: backgroundColor2,
 };
 
-const slide_3: Slide = {
+const slide3: Slide = {
   ID: 3,
-  objects: [block_1, block_2, block_3],
-  background: backgroundColor_2,
+  objects: [block1, block2, block3],
+  background: backgroundColor2,
 };
 
 const doc: Doc = {
-  slides: [slide_1, slide_2, slide_3],
+  slides: [slide1, slide2, slide3],
   name: "Document Name",
 };
 
@@ -137,14 +137,14 @@ export {
   pictureUrl,
   graphicObject,
   imageBlock,
-  slide_1,
-  slide_2,
-  slide_3,
-  textBlock_1,
-  textBlock_2,
-  block_1,
-  block_2,
-  block_3,
+  slide1,
+  slide2,
+  slide3,
+  textBlock1,
+  textBlock2,
+  block1,
+  block2,
+  block3,
   doc,
   selectionSlide,
   editor,

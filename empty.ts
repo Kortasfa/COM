@@ -1,13 +1,13 @@
-import { type Doc, type Editor } from './PresentationMakerStructure'
+import { type Doc, type Editor } from "./PresentationMakerStructure";
 
-const emptyDoc: Doc = {x``
+const emptyDoc: Doc = {
   slides: [],
-  name: 'Empty Document'
-}
+  name: "Empty Document",
+};
 
 const emptyEditor: Editor = {
   selection: [],
-  doc: emptyDoc
-}
+  doc: emptyDoc,
+};
 
-export { emptyDoc, emptyEditor }
+export { emptyDoc, emptyEditor };
