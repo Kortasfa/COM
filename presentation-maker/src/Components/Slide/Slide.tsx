@@ -1,7 +1,20 @@
-type Slide = {
+import {Block, BlockType} from "../Block/Block";
+import {PictureBase64Type} from "../Picture/PictureBase64";
+import {PictureUrlType} from "../Picture/PictureUrl";
+
+type SlideType = {
     id: number,
-    background:  PictureBase64 | PictureUrl | BackgroundColor,
-    objects: Block[],
+    background:  PictureBase64Type | PictureUrlType | string,
+    objects: BlockType[],
 }
 
-const Slide
+export const Slide = () => {
+    return (
+        <Block/>
+    )
+}
+
+export type {
+    SlideType
+}
+
