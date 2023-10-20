@@ -1,5 +1,4 @@
 type TextBlockType = {
-    type: "text";
     value: string;
     fillColor: string;
     textColor: string;
@@ -10,6 +9,8 @@ type TextBlockType = {
     textItalic: boolean;
     textHighlight: string;
 }
+
+
 
 export const TextBlock = ({
                               value,

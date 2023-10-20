@@ -1,4 +1,4 @@
-import {SlideType} from "../Slide/Slide";
+import {Slide, SlideType} from "../Slide/Slide";
 
 type Doc = {
     name: string,
@@ -7,6 +7,6 @@ type Doc = {
 
 export default function Doc() {
     return (
-        <p>123</p>
+        <Slide/>
     )
 }

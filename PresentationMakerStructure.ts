@@ -6,18 +6,28 @@ interface PictureUrl {
   PictureUrl: string;
 }
 
-interface GraphicObject {
+interface Block {
+  ID: number;
+  borderSize: number;
+  borderColor: string;
+  coordinatesX: number;
+  coordinatesY: number;
+  sizeX: number;
+  sizeY: number;
+}
+
+interface GraphicObject extends Block {
   fillColor: string;
   graphicObjectType: "rectangle" | "triangle" | "circle";
 }
 
-interface ImageBlock {
+interface ImageBlock extends Block {
   type: "image";
   src: PictureBase64 | PictureUrl;
   opacity: number;
 }
 
-interface TextBlock {
+interface TextBlock extends Block {
   type: "text";
   value: string;
   fillColor: string;
@@ -30,17 +40,6 @@ interface TextBlock {
   textHighlight: string;
 }
 
-interface Block {
-  ID: number;
-  blockContent: TextBlock | ImageBlock | GraphicObject;
-  borderSize: number;
-  borderColor: string;
-  coordinatesX: number;
-  coordinatesY: number;
-  sizeX: number;
-  sizeY: number;
-}
-
 interface BackgroundColor {
   BackgroundColor: string;
 }
@@ -48,7 +47,7 @@ interface BackgroundColor {
 interface Slide {
   ID: number;
   background: PictureBase64 | PictureUrl | BackgroundColor;
-  objects: Block[];
+  objects: TextBlock | GraphicObject | ImageBlock;
 }
 
 interface Doc {

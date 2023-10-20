@@ -1,16 +1,18 @@
-import {Block, BlockType} from "../Block/Block";
+import {BlockType} from "../Block/Block";
 import {PictureBase64Type} from "../Picture/PictureBase64";
 import {PictureUrlType} from "../Picture/PictureUrl";
+import {TextBlock} from "../Block/TextBlock/TextBlock";
 
 type SlideType = {
     id: number,
-    background:  PictureBase64Type | PictureUrlType | string,
+    background: PictureBase64Type | PictureUrlType | string,
     objects: BlockType[],
 }
 
 export const Slide = () => {
     return (
-        <Block/>
+        <TextBlock textBoldness={false} textFont={"default"} textColor={"yellow"} fillColor={"red"} textHighlight={"white"}
+                   textItalic={false} textSize={12} textUnderlines={false} value={"123"}/>
     )
 }
 
