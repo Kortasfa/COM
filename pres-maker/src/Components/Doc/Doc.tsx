@@ -1,8 +1,8 @@
-import { Slide, SlideType } from '../Slide/Slide';
+import { Slide, SlideType } from '../Slide/Slide'
 
 type Doc = {
-	name: string
-	slides: [SlideType]
+  name: string
+  slides: [SlideType]
 }
 
-export default function Doc() {}
+export default function Doc()

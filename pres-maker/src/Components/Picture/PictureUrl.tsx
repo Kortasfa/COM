@@ -1,9 +1,9 @@
 type PictureUrlType = {
-	imgSrc: string
+  imgSrc: string
 }
 
 export const PictureUrl = ({ imgSrc }: PictureUrlType) => {
-	return <img src={imgSrc} />;
+  return <img src={imgSrc} />
 }
 
-export type { PictureUrlType };
+export type { PictureUrlType }
