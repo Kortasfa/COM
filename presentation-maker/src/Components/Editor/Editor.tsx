@@ -4,7 +4,6 @@ import Doc from "../Doc/Doc";
 const Editor = () => (
     <>
         <Selection/>
-        <Doc/>
     </>
 )
 

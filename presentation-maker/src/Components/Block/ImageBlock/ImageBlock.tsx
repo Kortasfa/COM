@@ -1,15 +1,13 @@
-import {PictureBase64Type} from "../../Picture/PictureBase64";
-import {PictureUrlType} from "../../Picture/PictureUrl";
+import { BlockType } from "../Block";
 
-type ImageBlockType = {
-    type: "image";
-    src: PictureBase64Type | PictureUrlType;
-    opacity: number;
+type ImageBlockType = BlockType & {
+    src: string;
+    opacity?: number;
 }
 
-export const ImageBlock = () => {
+export const ImageBlock = ({src, opacity = 1} : ImageBlockType) => {
     return (
-        <h1></h1>
+        <img src={src} style={{opacity: opacity}}/>
     )
 }
 

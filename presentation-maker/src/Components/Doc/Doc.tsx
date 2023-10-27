@@ -6,7 +6,5 @@ type Doc = {
 }
 
 export default function Doc() {
-    return (
-        <Slide/>
-    )
+
 }

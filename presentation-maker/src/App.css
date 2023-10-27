@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top-panel {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 100%;
+  height: 113px;
+  background-color: orange
+}
+
+.top-panel__title-bar
+{
+  background-color: #FFFFFF; /* blanchedalmond */
+  width: 100%;
+  height: 28.14%
+}
+
+.top-panel__menu-panel
+{
+  background-color: #FFFFFF; /* gray */
+  height: 29%;
+  width: 100%;
+  transition-duration: .1s;
+}
+
+.top-panel__editor-panel
+{
+  background-color: #edf2fa;
+    border: none;
+    border-radius: 24px;
+    font-family: Google Sans,Roboto,sans-serif;
+    margin: 6px 16px 8px 16px;
+    height: 35%;
+    padding: 0 8px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.workspace {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 728px;
+  background-color: grey;
+}
+
+.workspace__side-panel {
+  display: flex;
+  background-color: red;
+  width: 14.5%;
+  height: 100%;
+}
+
+.workspace__main-area {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  background-color: lightgreen;
+  width: 100%;
+}
+
+.workspace__canvas {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: lightskyblue;
+  width: 98.6%;
+  height: 83.3%;
 }
 
-.App-link {
-  color: #61dafb;
+.slides-view {
+  /* background-color: greenyellow; */
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #EAEAEA;
+  position: relative;
+  top: 17px;
+  width: 77%;
+  height: 93.7%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.workspace__notes-field-block {
+  display: flex;
+  background-color: burlywood;
+  width: 100%;
+  height: 13.6%
 }
