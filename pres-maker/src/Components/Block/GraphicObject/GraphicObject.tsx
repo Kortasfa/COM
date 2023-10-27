@@ -1,4 +1,5 @@
 import { BlockType } from '../Block'
+import React from 'react'
 
 type GraphicObjectType = BlockType & {
   fillColor?: string

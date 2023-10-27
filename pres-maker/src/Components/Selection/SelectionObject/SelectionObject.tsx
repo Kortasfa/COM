@@ -1,13 +1,15 @@
-import { useState } from 'react';
+import React from 'react'
 
 type SelectionObjectProps = {
-	number: number | [number]
+  number: number | [number]
 }
 
-const SelectionObject = ({ number }: SelectionObjectProps) => {
-	const [numberOfObjects, setNumberOfObjects] = useState(number);
-
-	return <p>123</p>;
+const SelectionObject: React.FC<SelectionObjectProps> = ({ number }) => {
+  return (
+    <div className="selection-object">
+      {Array.isArray(number) ? number.map((num, idx) => <span key={idx}>{num}</span>) : <span>{number}</span>}
+    </div>
+  )
 }
 
-export default SelectionObject;
+export default SelectionObject

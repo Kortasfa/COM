@@ -1,10 +1,14 @@
-import Selection from '../Selection/Selection';
-import Doc from '../Doc/Doc';
+import Selection, { SelectionSlides } from '../Selection/Selection'
+import { Doc, DocType } from '../Doc/Doc'
+import React from 'react'
 
-const Editor = () => (
-	<>
-		<Selection />
-	</>
+type EditorType = DocType & SelectionSlides
+
+const Editor = ({ slides, name, selectSlide, selectObject }: EditorType) => (
+  <>
+    <Doc slides={slides} name={name} />
+    <Selection selectObject={selectObject} selectSlide={selectSlide} />
+  </>
 )
 
-export { Editor };
+export { Editor }

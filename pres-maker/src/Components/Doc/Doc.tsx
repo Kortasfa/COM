@@ -1,8 +1,14 @@
-import { Slide, SlideType } from '../Slide/Slide'
+import React from 'react'
 
-type Doc = {
+type DocType = {
   name: string
-  slides: [SlideType]
+  slides: JSX.Element[]
 }
 
-export default function Doc()
+export const Doc = ({ slides }: DocType) => {
+  return (
+    <div>{slides && slides.map((Component, index) => <React.Fragment key={index}>{Component}</React.Fragment>)}</div>
+  )
+}
+
+export type { DocType }

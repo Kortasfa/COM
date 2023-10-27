@@ -1,4 +1,5 @@
 import { BlockType } from '../Block'
+import React from 'react'
 
 type TextBlockType = BlockType & {
   value: string
