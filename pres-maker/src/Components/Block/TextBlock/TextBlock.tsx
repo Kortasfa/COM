@@ -1,5 +1,6 @@
-import { BlockType } from '../Block'
 import React from 'react'
+import { BlockType } from '../Block'
+import styles from './TextBlock.module.css' // Import css modules stylesheet as styles
 
 type TextBlockType = BlockType & {
   value: string
@@ -12,28 +13,29 @@ type TextBlockType = BlockType & {
   textItalic?: boolean
   textHighlight?: string
 }
-
 export const TextBlock = ({
   value,
   fillColor = 'white',
   textColor = 'black',
   textFont = 'Arial',
-  textSize = 12,
+  textSize,
   textBoldness = false,
   textUnderlines = false,
   textItalic = false,
   textHighlight = '',
 }: TextBlockType) => {
   return (
-    <div style={{ backgroundColor: fillColor }}>
+    <div className={styles.textBlockContainer} style={{ backgroundColor: fillColor }}>
       <p
+        className={styles.textBlock}
         style={{
           color: textColor,
           fontFamily: textFont,
-          fontSize: textSize,
+          fontSize: `${textSize}px`,
           fontWeight: textBoldness ? 500 : 400,
           textDecoration: textUnderlines ? 'underline' : 'none',
           fontStyle: textItalic ? 'italic' : 'normal',
+          backgroundColor: textHighlight,
         }}
       >
         {value}

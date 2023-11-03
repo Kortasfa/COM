@@ -3,7 +3,6 @@
 }
 
 .imageBlock {
-    position: absolute;
     justify-content: center;
     align-items: center;
     width: 40px;
