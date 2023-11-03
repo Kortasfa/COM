@@ -12,7 +12,14 @@ const FirstSlide = (
     id={1}
     background={'white'}
     objects={[
-      <GraphicObject id={2} key={1} coordinatesX={10} coordinatesY={10} graphicObjectType={'circle'} borderSize={20} />,
+      <GraphicObject
+        id={2}
+        key={1}
+        coordinatesX={10}
+        coordinatesY={10}
+        graphicObjectType={'rectangle'}
+        borderSize={20}
+      />,
       <ImageBlock
         id={3}
         key={2}

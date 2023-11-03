@@ -1,6 +1,6 @@
 import { BlockType } from '../Block'
 import React from 'react'
-import './GraphicObject.css'
+import styles from './GraphicObject.module.css'
 
 type GraphicObjectType = BlockType & {
   fillColor?: string
@@ -19,21 +19,25 @@ const GraphicObject = ({
   graphicObjectType,
 }: GraphicObjectType) => {
   const rectangle = (
-    <svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg">
-      <rect width="100" height="100" fill={fillColor} />
-    </svg>
+    <div className={`${styles.rectangleContainer}`}>
+      <svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg" className={styles.graphic}>
+        <rect className={styles.rectangle} fill={fillColor} />
+      </svg>
+    </div>
   )
 
   const circle = (
-    <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="100" cy="75" r="50" fill={fillColor} />
-    </svg>
+    <div className={`${styles.circleContainer}`}>
+      <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" className={styles.graphic}>
+        <circle cx="100" cy="75" r="50" className={styles.circle} fill={fillColor} />
+      </svg>
+    </div>
   )
 
   const triangle = (
-    <div className="triangle-container">
-      <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
-        <polygon points="150,60 0,400 300,400" className="triangle" fill={fillColor} />
+    <div className={`${styles.triangleContainer}`}>
+      <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" className={styles.graphic}>
+        <polygon points="150,60 0,400 300,400" className={styles.triangle} fill={fillColor} />
       </svg>
     </div>
   )
