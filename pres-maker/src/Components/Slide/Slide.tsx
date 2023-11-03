@@ -7,6 +7,7 @@ type SlideType = {
 }
 
 export const Slide = ({ id, background, objects }: SlideType) => {
+  console.log(id)
   return (
     <div style={{ background }}>
       {objects && objects.map((Component, index) => <React.Fragment key={index}>{Component}</React.Fragment>)}

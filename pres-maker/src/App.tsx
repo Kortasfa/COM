@@ -12,14 +12,7 @@ const FirstSlide = (
     id={1}
     background={'white'}
     objects={[
-      <GraphicObject
-        id={2}
-        key={1}
-        coordinatesX={10}
-        coordinatesY={10}
-        graphicObjectType={'rectangle'}
-        borderSize={20}
-      />,
+      <GraphicObject id={2} key={1} coordinatesX={10} coordinatesY={10} graphicObjectType={'circle'} borderSize={20} />,
       <ImageBlock
         id={3}
         key={2}
@@ -38,7 +31,17 @@ const SecondSlide = (
     key={1}
     id={1}
     background={'white'}
-    objects={[<TextBlock id={1} coordinatesX={10} coordinatesY={12} value={'123'} key={1} />]}
+    objects={[
+      <GraphicObject
+        id={2}
+        key={1}
+        coordinatesX={10}
+        coordinatesY={10}
+        graphicObjectType={'rectangle'}
+        borderSize={20}
+      />,
+      <TextBlock id={1} coordinatesX={10} coordinatesY={12} value={'123'} key={1} />,
+    ]}
   />
 )
 

@@ -7,7 +7,7 @@ type ImageBlockType = BlockType & {
 }
 
 export const ImageBlock = ({ src, opacity = 1 }: ImageBlockType) => {
-  return <img src={src} style={{ opacity: opacity }} />
+  return <img alt="some" src={src} style={{ opacity: opacity }} />
 }
 
 export type { ImageBlockType }
