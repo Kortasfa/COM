@@ -1,5 +1,6 @@
 import React from 'react'
-import './App.css'
+import topPanelStyles from './Top-panel.module.css'
+import workspaceStyles from './Workspace.module.css'
 import { Slide } from './Components/Slide/Slide'
 import { GraphicObject } from './Components/Block/GraphicObject/GraphicObject'
 import { ImageBlock } from './Components/Block/ImageBlock/ImageBlock'
@@ -52,21 +53,21 @@ function App() {
     <>
       <div>
         <header>
-          <div className="top-panel">
-            <div className="top-panel__title-bar"></div>
-            <div className="top-panel__menu-panel"></div>
-            <div className="top-panel__editor-panel"></div>
+          <div className={topPanelStyles.topPanel}>
+            <div className={topPanelStyles.titleBar}></div>
+            <div className={topPanelStyles.menuPanel}></div>
+            <div className={topPanelStyles.editorPanel}></div>
           </div>
         </header>
-        <div className="workspace">
-          <div className="workspace__side-panel">
+        <div className={workspaceStyles.workspace}>
+          <div className={workspaceStyles.sidePanel}>
             <Editor name={'213'} slides={[FirstSlide, SecondSlide]} selectSlide={[1]} selectObject={[2]} />
           </div>
-          <div className="workspace__main-area">
-            <div className="workspace__canvas">
-              <div className="slides-view">{FirstSlide}</div>
+          <div className={workspaceStyles.mainArea}>
+            <div className={workspaceStyles.canvas}>
+              <div className={workspaceStyles.slidesView}>{FirstSlide}</div>
             </div>
-            <div className="workspace__notes-field-block"></div>
+            <div className={workspaceStyles.notesFieldBlock}></div>
           </div>
         </div>
       </div>
