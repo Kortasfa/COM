@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="изменения">
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.stylelintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PresentationMakerStructure.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/example/PresentationMakerStructure.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PresentationMakerStructure.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/example/PresentationMakerStructure.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/Script/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script/post-commit" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/Script/post-commit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empty.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/example/empty.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/Notes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/example/Notes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/example/data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/full.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/example/full.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/half.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/example/half.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/Block.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/Components/Block/Block.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/GraphicObject/GraphicObject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/Components/Block/GraphicObject/GraphicObject.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/ImageBlock/ImageBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/Components/Block/ImageBlock/ImageBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/TextBlock/TextBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/Components/Block/TextBlock/TextBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Doc/Doc.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/Components/Doc/Doc.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Editor/Editor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/Components/Editor/Editor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Selection/Selection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/Components/Selection/Selection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Selection/SelectionObject/SelectionObject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/Components/Selection/SelectionObject/SelectionObject.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Selection/SelectionSlide/SelectionSlide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/Components/Selection/SelectionSlide/SelectionSlide.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Slide/Slide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/Components/Slide/Slide.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/reportWebVitals.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pres-maker/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pres-maker/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/Components/Block/Block.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/Components/Block/GraphicObject/GraphicObject.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/Components/Block/ImageBlock/ImageBlock.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/Components/Block/TextBlock/TextBlock.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/Components/Doc/Doc.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/Components/Editor/Editor.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/Components/Picture/PictureBase64.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/Components/Picture/PictureUrl.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/Components/Selection/Selection.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/Components/Selection/SelectionObject/SelectionObject.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/Components/Selection/SelectionSlide/SelectionSlide.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/Components/Slide/Slide.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/arrowdown_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/arrowdown_icon2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/arrowdown_icon3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/comment_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/figures_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/image_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/line_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/plus_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/plus_icon2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/pointer_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/pointer_icon2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/print_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/roller_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/search_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/search_icon2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/textfield_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/images/editor/zoom_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation-maker/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styleB.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2YFo34TwQspkIgYvyvwk6JodWss" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "korta",
+    "ignore.virus.scanning.warn.message": "true",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "C:/Users/korta/WebstormProjects/COM/pres-maker",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "C:\\Users\\korta\\WebstormProjects\\COM\\node_modules\\stylelint",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\korta\\WebstormProjects\\COM\\pres-maker\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\korta\WebstormProjects\COM\pres-maker\example" />
+      <recent name="C:\Users\korta\WebstormProjects\COM\pres-maker" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Lint and start">
+    <configuration name="Start" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="npx eslint . --fix \n npm start" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="npm run lint -- --fix" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="false" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/pres-maker" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Lint and start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/pres-maker/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.Lint and start" />
+      <item itemvalue="Shell Script.Start" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="изменения" />
+      <created>1700130487643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700130487643</updated>
+      <workItem from="1700130488994" duration="72000" />
+      <workItem from="1700130578203" duration="1591000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="изменения" />
+    <option name="LAST_COMMIT_MESSAGE" value="изменения" />
+  </component>
+</project>
