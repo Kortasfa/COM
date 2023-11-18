@@ -1,5 +1,5 @@
 import React from 'react'
-import topPanelStyles from '../Top-panel.module.css'
+import topPanelStyles from './Top-panel.module.css'
 
 const Header = () => {
   return (

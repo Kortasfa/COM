@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Image = () => {
-  return <img src={this.props.image} />
+  return <img />
 }
 
 export default Image
