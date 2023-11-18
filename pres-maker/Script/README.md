@@ -1,1 +1,0 @@
-Добавить файл post-commit по пути .git/hooks/
