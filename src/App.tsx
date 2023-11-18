@@ -1,6 +1,6 @@
 import React from 'react'
-import topPanelStyles from './Top-panel.module.css'
-import workspaceStyles from './Workspace.module.css'
+import topPanelStyles from './Components/Top-panel.module.css'
+import workspaceStyles from './Components/Workspace.module.css'
 import { Slide } from './Components/Slide/Slide'
 import { GraphicObject } from './Components/Block/GraphicObject/GraphicObject'
 import { ImageBlock } from './Components/Block/ImageBlock/ImageBlock'

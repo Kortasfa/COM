@@ -4,64 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="korta упростил проект, убрал лишнее">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/Script/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/Script/post-commit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/example/Notes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/example/PresentationMakerStructure.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/example/PresentationMakerStructure.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/example/data.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/example/empty.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/example/full.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/example/half.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/Block.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/GraphicObject/GraphicObject.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/GraphicObject/GraphicObject.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/ImageBlock/ImageBlock.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/ImageBlock/ImageBlock.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/TextBlock/TextBlock.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/TextBlock/TextBlock.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Doc/Doc.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Editor/Editor.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Selection/Selection.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Selection/SelectionObject/SelectionObject.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Selection/SelectionSlide/SelectionSlide.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Slide/Slide.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Slide/Slide.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Top-panel.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Workspace.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/tsconfig.json" beforeDir="false" />
+    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="korta удалил и перенес лишнее">
+      <change beforePath="$PROJECT_DIR$/src/Components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,9 +51,11 @@
     "ignore_missing_gitignore": "true",
     "last_opened_file_path": "C:/Users/korta/WebstormProjects/COM",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.stylelint": "C:\\Users\\korta\\WebstormProjects\\COM\\node_modules\\stylelint",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -103,9 +68,11 @@
       <recent name="C:\Users\korta\WebstormProjects\COM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\korta\WebstormProjects\COM\src" />
+      <recent name="C:\Users\korta\WebstormProjects\COM\src\Components" />
+      <recent name="C:\Users\korta\WebstormProjects\COM\src\css" />
       <recent name="C:\Users\korta\WebstormProjects\COM" />
       <recent name="C:\Users\korta\WebstormProjects\COM\pres-maker\example" />
-      <recent name="C:\Users\korta\WebstormProjects\COM\pres-maker" />
     </key>
   </component>
   <component name="RunManager">
@@ -146,7 +113,31 @@
       <option name="project" value="LOCAL" />
       <updated>1700132356679</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="korta добавил eslint ignore">
+      <option name="closed" value="true" />
+      <created>1700306718745</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700306718745</updated>
+    </task>
+    <task id="LOCAL-00004" summary="korta добавил eslint ignore">
+      <option name="closed" value="true" />
+      <created>1700306724308</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700306724308</updated>
+    </task>
+    <task id="LOCAL-00005" summary="korta удалил и перенес лишнее">
+      <option name="closed" value="true" />
+      <created>1700307103267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700307103267</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +157,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="изменения" />
     <MESSAGE value="korta упростил проект, убрал лишнее" />
-    <option name="LAST_COMMIT_MESSAGE" value="korta упростил проект, убрал лишнее" />
+    <MESSAGE value="korta добавил eslint ignore" />
+    <MESSAGE value="korta удалил и перенес лишнее" />
+    <option name="LAST_COMMIT_MESSAGE" value="korta удалил и перенес лишнее" />
   </component>
 </project>
