@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import topPanelStyles from './Top-panel.module.css'
-import workspaceStyles from './Workspace.module.css'
+import topPanelStyles from './Components/Top-panel.module.css'
+import workspaceStyles from './Components/Workspace.module.css'
 import { SlidesDatas } from './Components/SlideData/Slides'
 import { Editor } from './Components/Editor/Editor'
 import { exportSlidesToJson } from './Export'
