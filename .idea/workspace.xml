@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="korta упростил проект, убрал лишнее">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/previousLabs/Notes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/previousLabs/Notes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/previousLabs/PresentationMakerStructure.ts" beforeDir="false" afterPath="$PROJECT_DIR$/previousLabs/PresentationMakerStructure.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/previousLabs/half.ts" beforeDir="false" afterPath="$PROJECT_DIR$/previousLabs/half.ts" afterDir="false" />
+    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="korta добавил eslint ignore">
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +69,11 @@
       <recent name="C:\Users\korta\WebstormProjects\COM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\korta\WebstormProjects\COM\src\Components" />
+      <recent name="C:\Users\korta\WebstormProjects\COM\src\css" />
+      <recent name="C:\Users\korta\WebstormProjects\COM\src" />
       <recent name="C:\Users\korta\WebstormProjects\COM" />
       <recent name="C:\Users\korta\WebstormProjects\COM\pres-maker\example" />
-      <recent name="C:\Users\korta\WebstormProjects\COM\pres-maker" />
     </key>
   </component>
   <component name="RunManager">
@@ -108,7 +114,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700132356679</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="korta добавил eslint ignore">
+      <option name="closed" value="true" />
+      <created>1700306718745</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700306718745</updated>
+    </task>
+    <task id="LOCAL-00004" summary="korta добавил eslint ignore">
+      <option name="closed" value="true" />
+      <created>1700306724308</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700306724308</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +150,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="изменения" />
     <MESSAGE value="korta упростил проект, убрал лишнее" />
-    <option name="LAST_COMMIT_MESSAGE" value="korta упростил проект, убрал лишнее" />
+    <MESSAGE value="korta добавил eslint ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="korta добавил eslint ignore" />
   </component>
 </project>
