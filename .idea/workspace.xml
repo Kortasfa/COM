@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="korta удалил и перенес лишнее">
-      <change beforePath="$PROJECT_DIR$/src/Components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
+    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="korta почистил проект">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Block/Block.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/Block.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Block/GraphicObject/GraphicObject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/GraphicObject/GraphicObject.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Block/ImageBlock/ImageBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/ImageBlock/ImageBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Block/TextBlock/TextBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/TextBlock/TextBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Doc/Doc.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Doc/Doc.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +37,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -40,29 +48,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "korta",
-    "ignore.virus.scanning.warn.message": "true",
-    "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "C:/Users/korta/WebstormProjects/COM",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "C:\\Users\\korta\\WebstormProjects\\COM\\node_modules\\stylelint",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\korta\\WebstormProjects\\COM\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;korta&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/korta/WebstormProjects/COM&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;C:\\Users\\korta\\WebstormProjects\\COM\\node_modules\\stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\korta\\WebstormProjects\\COM\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\korta\WebstormProjects\COM" />
@@ -137,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700307103267</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="korta почистил проект">
+      <option name="closed" value="true" />
+      <created>1700307568998</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700307568998</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +175,7 @@
     <MESSAGE value="korta упростил проект, убрал лишнее" />
     <MESSAGE value="korta добавил eslint ignore" />
     <MESSAGE value="korta удалил и перенес лишнее" />
-    <option name="LAST_COMMIT_MESSAGE" value="korta удалил и перенес лишнее" />
+    <MESSAGE value="korta почистил проект" />
+    <option name="LAST_COMMIT_MESSAGE" value="korta почистил проект" />
   </component>
 </project>

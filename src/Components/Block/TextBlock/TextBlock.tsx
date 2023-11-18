@@ -23,16 +23,30 @@ export const TextBlock = ({
   textUnderlines = false,
   textItalic = false,
   textHighlight = '',
+  sizeX,
+  sizeY,
+  coordinatesX,
+  coordinatesY,
 }: TextBlockType) => {
   return (
-    <div className={styles.textBlockContainer} style={{ backgroundColor: fillColor }}>
+    <div
+      className={styles.textBlockContainer}
+      style={{
+        backgroundColor: fillColor,
+        width: sizeX ? `${sizeX}%` : 'auto',
+        height: sizeY ? `${sizeY}%` : 'auto',
+        position: 'absolute',
+        left: coordinatesX ? `${coordinatesX}%` : 'auto',
+        top: coordinatesY ? `${coordinatesY}%` : 'auto',
+      }}
+    >
       <p
         className={styles.textBlock}
         style={{
           color: textColor,
           fontFamily: textFont,
-          fontSize: `${textSize}px`,
-          fontWeight: textBoldness ? 500 : 400,
+          fontSize: textSize ? `${textSize}px` : 'inherit',
+          fontWeight: textBoldness ? 'bold' : 'normal',
           textDecoration: textUnderlines ? 'underline' : 'none',
           fontStyle: textItalic ? 'italic' : 'normal',
           backgroundColor: textHighlight,

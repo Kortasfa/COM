@@ -7,8 +7,22 @@ type ImageBlockType = BlockType & {
   opacity?: number
 }
 
-export const ImageBlock = ({ src, opacity = 1 }: ImageBlockType) => {
-  return <img alt="some" src={src} className={styles.imageBlock} style={{ opacity: opacity }} />
+export const ImageBlock = ({ src, opacity = 1, sizeX, sizeY, coordinatesX, coordinatesY }: ImageBlockType) => {
+  return (
+    <img
+      alt="some"
+      src={src}
+      className={styles.imageBlock}
+      style={{
+        opacity: opacity,
+        width: sizeX ? `${sizeX}%` : 'auto',
+        height: sizeY ? `${sizeY}%` : 'auto',
+        position: 'absolute',
+        left: coordinatesX ? `${coordinatesX}%` : 'auto',
+        top: coordinatesY ? `${coordinatesY}%` : 'auto',
+      }}
+    />
+  )
 }
 
 export type { ImageBlockType }

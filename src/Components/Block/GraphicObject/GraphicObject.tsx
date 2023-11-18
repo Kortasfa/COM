@@ -8,40 +8,46 @@ type GraphicObjectType = BlockType & {
 }
 
 const GraphicObject = ({
-  id,
-  borderSize = 1,
-  sizeX = 5,
-  sizeY = 5,
-  borderColor = 'black',
-  coordinatesY,
-  coordinatesX,
   fillColor = 'black',
   graphicObjectType,
+  sizeX = 5,
+  sizeY = 5,
+  coordinatesX,
+  coordinatesY,
 }: GraphicObjectType) => {
+  const commonStyle: React.CSSProperties = {
+    width: `${sizeX}%`,
+    height: `${sizeY}%`,
+    position: 'absolute',
+    left: coordinatesX ? `${coordinatesX}%` : 'auto',
+    top: coordinatesY ? `${coordinatesY}%` : 'auto',
+  }
+
   const rectangle = (
-    <div className={`${styles.rectangleContainer}`}>
+    <div className={`${styles.rectangleContainer}`} style={commonStyle}>
       <svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg" className={styles.graphic}>
-        <rect className={styles.rectangle} fill={fillColor} />
+        <rect fill={fillColor} />
       </svg>
     </div>
   )
 
   const circle = (
-    <div className={`${styles.circleContainer}`}>
+    <div className={`${styles.circleContainer}`} style={commonStyle}>
       <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" className={styles.graphic}>
-        <circle cx="100" cy="75" r="50" className={styles.circle} fill={fillColor} />
+        <circle cx="100" cy="75" r="50" fill={fillColor} />
       </svg>
     </div>
   )
 
   const triangle = (
-    <div className={`${styles.triangleContainer}`}>
+    <div className={`${styles.triangleContainer}`} style={commonStyle}>
       <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" className={styles.graphic}>
-        <polygon points="150,60 0,400 300,400" className={styles.triangle} fill={fillColor} />
+        <polygon points="150,60 0,400 300,400" fill={fillColor} />
       </svg>
     </div>
   )
 
+  // Choose the appropriate graphic type
   let render
   if (graphicObjectType === 'rectangle') {
     render = rectangle
@@ -57,5 +63,4 @@ const GraphicObject = ({
 }
 
 export { GraphicObject }
-
 export type { GraphicObjectType }
