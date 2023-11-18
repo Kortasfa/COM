@@ -12,11 +12,11 @@ const FirstSlide = (
       <TextBlock
         type={'TextBlock'}
         id={1}
+        key={1}
         coordinatesX={10}
         coordinatesY={12}
         textSize={20}
         value={'Hello Andrey!'}
-        key={1}
       />,
 
       <GraphicObject
