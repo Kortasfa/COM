@@ -1,5 +1,3 @@
-import { type } from 'os'
-
 type Note = {
   title: string
   text: string
