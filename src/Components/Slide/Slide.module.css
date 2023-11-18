@@ -1,0 +1,14 @@
+/* Slide.module.css */
+
+.slideContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slideObject {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Add any other styles you need for the objects */
+}
