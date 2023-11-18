@@ -10,7 +10,7 @@ import {
   type Doc,
   type SelectionSlide,
   type Editor,
-} from './PresentationMakerStructure'
+} from '../../../previousLabs/PresentationMakerStructure'
 
 const pictureBase64: PictureBase64 = {
   PictureBase64:
@@ -22,6 +22,9 @@ const pictureUrl: PictureUrl = {
 }
 
 const graphicObject: GraphicObject = {
+  coordinatesX={10}
+  coordinatesY={12}
+  textSize={20}
   fillColor: '#00FF00',
   graphicObjectType: 'rectangle',
 }

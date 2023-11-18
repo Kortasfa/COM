@@ -3,11 +3,13 @@ import React from 'react'
 import styles from './GraphicObject.module.css'
 
 type GraphicObjectType = BlockType & {
+  type: string
   fillColor?: string
   graphicObjectType: 'rectangle' | 'triangle' | 'circle'
 }
 
 const GraphicObject = ({
+  type,
   id,
   borderSize = 1,
   sizeX = 5,

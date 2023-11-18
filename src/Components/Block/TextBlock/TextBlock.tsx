@@ -3,6 +3,7 @@ import { BlockType } from '../Block'
 import styles from './TextBlock.module.css' // Import css modules stylesheet as styles
 
 type TextBlockType = BlockType & {
+  type: string
   value: string
   fillColor?: string
   textColor?: string
@@ -14,6 +15,7 @@ type TextBlockType = BlockType & {
   textHighlight?: string
 }
 export const TextBlock = ({
+  type,
   value,
   fillColor = 'white',
   textColor = 'black',

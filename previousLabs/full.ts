@@ -10,7 +10,7 @@ import {
   type Doc,
   type SelectionSlide,
   type Editor,
-} from './PresentationMakerStructure'
+} from '../../../previousLabs/PresentationMakerStructure'
 
 const pictureBase641: PictureBase64 = {
   PictureBase64:
