@@ -1,11 +1,11 @@
 import React from 'react'
-import topPanelStyles from './Top-panel.module.css'
-import workspaceStyles from './Workspace.module.css'
-import { Slide } from './Slide/Slide'
-import { GraphicObject } from './Block/GraphicObject/GraphicObject'
-import { ImageBlock } from './Block/ImageBlock/ImageBlock'
-import { Editor } from './Editor/Editor'
-import { TextBlock } from './Block/TextBlock/TextBlock'
+import topPanelStyles from './Components/Top-panel.module.css'
+import workspaceStyles from './Components/Workspace.module.css'
+import { Slide } from './Components/Slide/Slide'
+import { GraphicObject } from './Components/Block/GraphicObject/GraphicObject'
+import { ImageBlock } from './Components/Block/ImageBlock/ImageBlock'
+import { Editor } from './Components/Editor/Editor'
+import { TextBlock } from './Components/Block/TextBlock/TextBlock'
 
 const FirstSlide = (
   <Slide
