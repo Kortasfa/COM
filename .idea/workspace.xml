@@ -4,54 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="korta упростил проект, убрал лишнее">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/Script/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/Script/post-commit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/example/Notes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/example/PresentationMakerStructure.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/example/PresentationMakerStructure.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/example/data.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/example/empty.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/example/full.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/example/half.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/Block.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/GraphicObject/GraphicObject.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/GraphicObject/GraphicObject.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/ImageBlock/ImageBlock.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/ImageBlock/ImageBlock.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/TextBlock/TextBlock.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Block/TextBlock/TextBlock.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Doc/Doc.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Editor/Editor.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Selection/Selection.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Selection/SelectionObject/SelectionObject.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Selection/SelectionSlide/SelectionSlide.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Slide/Slide.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Components/Slide/Slide.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Top-panel.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/Workspace.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/src/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres-maker/tsconfig.json" beforeDir="false" />
+    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="-">
+      <change afterPath="$PROJECT_DIR$/pres-maker/src/Export.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SlideData/Slides.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SlideData/rJSN.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SlideData/slides.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Export.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Block/GraphicObject/GraphicObject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/GraphicObject/GraphicObject.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Block/ImageBlock/ImageBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/ImageBlock/ImageBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Block/TextBlock/TextBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/TextBlock/TextBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slide/Slide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slide/Slide.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +36,7 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2YFo34TwQspkIgYvyvwk6JodWss" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -83,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "korta",
+    "git-widget-placeholder": "RLafleet-branch",
     "ignore.virus.scanning.warn.message": "true",
     "ignore_missing_gitignore": "true",
     "last_opened_file_path": "C:/Users/korta/WebstormProjects/COM",
@@ -94,7 +58,7 @@
     "node.js.selected.package.stylelint": "C:\\Users\\korta\\WebstormProjects\\COM\\node_modules\\stylelint",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\korta\\WebstormProjects\\COM\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\apppp\\WebstormProjects\\COM\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -166,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="изменения" />
     <MESSAGE value="korta упростил проект, убрал лишнее" />
-    <option name="LAST_COMMIT_MESSAGE" value="korta упростил проект, убрал лишнее" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
 </project>
