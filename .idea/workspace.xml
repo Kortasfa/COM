@@ -4,15 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="Export">
-      <change afterPath="$PROJECT_DIR$/src/Components/SlideData/rJSN.tsx" afterDir="false" />
+    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="korta удалил и перенес лишнее">
+      <change afterPath="$PROJECT_DIR$/src/Components/Editor/AddCommentButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseInputMethodsButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseLineButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Editor/FigureButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Editor/FormattingButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Editor/Image.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Editor/InputMethodsButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Editor/LineButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Editor/PrintButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Editor/RedoButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Editor/ScaleButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Editor/ScaleValueButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Editor/SearchButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Editor/UndoButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/previousLabs/empty.ts" beforeDir="false" afterPath="$PROJECT_DIR$/previousLabs/empty.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/previousLabs/full.ts" beforeDir="false" afterPath="$PROJECT_DIR$/previousLabs/full.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/previousLabs/half.ts" beforeDir="false" afterPath="$PROJECT_DIR$/previousLabs/half.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/Slides.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SlideData/Slides.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/AddImageButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/InsertImageButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/AddSlideButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/NewSlideButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/AddSlideMaketButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/NewSlideMaketButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/AddTextFieldButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/TextFieldButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.tsx" afterDir="false" />
     </list>
-    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="korta удалил и перенес лишнее" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "RLafleet-branch",
+    "git-widget-placeholder": "ilsaf",
     "ignore.virus.scanning.warn.message": "true",
     "ignore_missing_gitignore": "true",
     "last_opened_file_path": "C:/Users/apppp/WebstormProjects/COM/previousLabs",
@@ -55,7 +69,7 @@
     "node.js.selected.package.stylelint": "C:\\Users\\korta\\WebstormProjects\\COM\\node_modules\\stylelint",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\apppp\\WebstormProjects\\COM\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "D:\\2ndCourse\\frontendCourse\\COM\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>

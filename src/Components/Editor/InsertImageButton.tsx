@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { ImageBlock } from '../Block/ImageBlock/ImageBlock'
 import { Slide } from '../Slide/Slide'
-import topPanelStyles from '../../Top-panel.module.css'
+import topPanelStyles from '../Top-panel.module.css'
 
-const AddImageButton = () => {
+const InsertImageButton = () => {
   return (
     <div className={topPanelStyles.insertImageButton}>
       <svg width="21" height="21" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,4 +19,4 @@ const AddImageButton = () => {
     </div>
   )
 }
-export default AddImageButton
+export default InsertImageButton

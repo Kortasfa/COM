@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Slide } from '../Slide/Slide'
-import topPanelStyles from '../../Top-panel.module.css'
+import topPanelStyles from '../Top-panel.module.css'
 
 // type addSlideButtonType = {
 //   id: number
@@ -17,7 +17,7 @@ import topPanelStyles from '../../Top-panel.module.css'
 //   )
 // }
 
-const AddSlideButton = () => {
+const NewSlideButton = () => {
   return (
     <div className={topPanelStyles.newSlideButton}>
       <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -30,7 +30,7 @@ const AddSlideButton = () => {
   )
 }
 
-export default AddSlideButton
+export default NewSlideButton
 
 //   const [click, setCLick] = useState(0)
 //   useEffect(() => {})
