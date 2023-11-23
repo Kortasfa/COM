@@ -12,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/previousLabs/half.ts" beforeDir="false" afterPath="$PROJECT_DIR$/previousLabs/half.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/SlideData/Slides.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SlideData/Slides.tsx" afterDir="false" />
     </list>
+    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="korta удалил и перенес лишнее" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +92,7 @@
       <workItem from="1700130578203" duration="2809000" />
       <workItem from="1700193806414" duration="1302000" />
       <workItem from="1700304486093" duration="335000" />
+      <workItem from="1700309939008" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="korta упростил проект, убрал лишнее">
       <option name="closed" value="true" />
