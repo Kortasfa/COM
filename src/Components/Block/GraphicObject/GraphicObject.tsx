@@ -1,6 +1,7 @@
 import { BlockType } from '../Block'
 import React from 'react'
 import styles from './GraphicObject.module.css'
+import useDraggable from '../../../utils/useDragAndDrop'
 
 type GraphicObjectType = BlockType & {
   fillColor?: string
@@ -15,16 +16,17 @@ const GraphicObject = ({
   coordinatesX,
   coordinatesY,
 }: GraphicObjectType) => {
+  const { position, onMouseDown, onMouseMove, onMouseUp } = useDraggable()
   const commonStyle: React.CSSProperties = {
     width: `${sizeX}%`,
     height: `${sizeY}%`,
     position: 'absolute',
-    left: coordinatesX ? `${coordinatesX}%` : 'auto',
-    top: coordinatesY ? `${coordinatesY}%` : 'auto',
+    left: coordinatesX ? `${position.x}px` : 'auto',
+    top: coordinatesY ? `${position.y}px` : 'auto',
   }
 
   const rectangle = (
-    <div className={`${styles.rectangleContainer}`} style={commonStyle}>
+    <div className={`${styles.rectangleContainer}`} style={commonStyle} onMouseDown={onMouseDown}>
       <svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg" className={styles.graphic}>
         <rect fill={fillColor} />
       </svg>
@@ -32,7 +34,7 @@ const GraphicObject = ({
   )
 
   const circle = (
-    <div className={`${styles.circleContainer}`} style={commonStyle}>
+    <div className={`${styles.circleContainer}`} style={commonStyle} onMouseDown={onMouseDown}>
       <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" className={styles.graphic}>
         <circle cx="100" cy="75" r="50" fill={fillColor} />
       </svg>
@@ -40,7 +42,7 @@ const GraphicObject = ({
   )
 
   const triangle = (
-    <div className={`${styles.triangleContainer}`} style={commonStyle}>
+    <div className={`${styles.triangleContainer}`} style={commonStyle} onMouseDown={onMouseDown}>
       <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" className={styles.graphic}>
         <polygon points="150,60 0,400 300,400" fill={fillColor} />
       </svg>
@@ -59,7 +61,11 @@ const GraphicObject = ({
     return null
   }
 
-  return render
+  return (
+    <div onMouseMove={onMouseMove} onMouseUp={onMouseUp}>
+      {render}
+    </div>
+  )
 }
 
 export { GraphicObject }
