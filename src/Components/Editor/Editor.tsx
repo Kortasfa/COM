@@ -5,10 +5,10 @@ import React from 'react'
 type EditorType = DocType & SelectionSlides
 
 const Editor = ({ slides, name, selectSlide, selectObject }: EditorType) => (
-  <>
+  <div style={{ width: '100%', height: '100%' }}>
     <Doc slides={slides} name={name} />
     <Selection selectObject={selectObject} selectSlide={selectSlide} />
-  </>
+  </div>
 )
 
 export { Editor }
