@@ -4,6 +4,7 @@ import styles from './TextBlock.module.css'
 import useDraggable from '../../../utils/useDragAndDrop' // Import css modules stylesheet as styles
 
 type TextBlockType = BlockType & {
+  type: string
   value: string
   fillColor?: string
   textColor?: string
@@ -16,6 +17,7 @@ type TextBlockType = BlockType & {
   onMouseDown?: React.MouseEventHandler<HTMLDivElement>
 }
 export const TextBlock = ({
+  type,
   value,
   fillColor = 'white',
   textColor = 'black',

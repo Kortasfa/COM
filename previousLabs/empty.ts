@@ -1,4 +1,4 @@
-import { type Doc, type Editor } from './PresentationMakerStructure'
+import { type Doc, type Editor } from '../../../previousLabs/PresentationMakerStructure'
 
 const emptyDoc: Doc = {
   slides: [],

@@ -4,11 +4,12 @@ import styles from './ImageBlock.module.css'
 import useDraggable from '../../../utils/useDragAndDrop'
 
 type ImageBlockType = BlockType & {
+  type: string
   src: string
   opacity?: number
 }
 
-export const ImageBlock = ({ src, opacity = 1, sizeX, sizeY, coordinatesX, coordinatesY }: ImageBlockType) => {
+export const ImageBlock = ({src, opacity = 1, sizeX, sizeY, coordinatesX, coordinatesY }: ImageBlockType) => {
   const { position, onMouseDown, onMouseMove, onMouseUp } = useDraggable()
   return (
     <div onMouseMove={onMouseMove} onMouseUp={onMouseUp}>
