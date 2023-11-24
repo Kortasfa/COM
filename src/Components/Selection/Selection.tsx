@@ -9,9 +9,9 @@ export type SelectionSlides = {
 
 export default function Selection({ selectSlide, selectObject }: SelectionSlides) {
   return (
-    <>
+    <div>
       <SelectionSlide number={selectSlide} />
       {selectSlide.length === 1 ? selectObject.map((num, idx) => <SelectionObject key={idx} number={num} />) : null}
-    </>
+    </div>
   )
 }

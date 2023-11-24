@@ -18,7 +18,6 @@ const FirstSlide = (
         textSize={20}
         value={'Hello Andrey!'}
       />,
-
       <GraphicObject
         type={'GraphicObject'}
         id={2}
@@ -45,7 +44,7 @@ const FirstSlide = (
 const SecondSlide = (
   <Slide
     id={2}
-    background={'red'}
+    background={'white'}
     objects={[
       <GraphicObject
         type={'GraphicObject'}
@@ -61,5 +60,5 @@ const SecondSlide = (
   />
 )
 
-const SlidesDatas = [FirstSlide, SecondSlide]
-export { SlidesDatas }
+const SlidesData = [FirstSlide, SecondSlide]
+export { SlidesData }

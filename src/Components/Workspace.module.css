@@ -9,7 +9,7 @@
 .sidePanel {
     display: flex;
     background-color: red;
-    width: 14.5%;
+    width: 200px;
     height: 100%;
 }
 
@@ -19,7 +19,7 @@
     align-items: flex-end;
     flex-direction: column;
     background-color: lightgreen;
-    width: 100%;
+    min-width: 1200px;
 }
 
 .canvas {
