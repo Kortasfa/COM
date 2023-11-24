@@ -1,19 +1,12 @@
-type PictureBase64 = {
-  PictureBase64: string;
-};
-
-type PictureUrl = {
-  PictureUrl: string;
-}
-
 type GraphicObject = {
+  type: "figure";
   fillColor: string;
   figureType: "rectangle" | "triangle" | "circle";
 };
 
-type ImageBlock =  {
+type ImageBlock = {
   type: "image";
-  src: PictureBase64| PictureUrl;
+  src: string;
   opacity?: number;
 };
 
@@ -41,13 +34,13 @@ type Block = {
   sizeY: number;
 };
 
-type BackgroundColor = {
-  BackgroundColor: string;
-}
+// type BackgroundColor = {
+//   BackgroundColor: string
+// }
 
 type Slide = {
   ID: number;
-  background: PictureBase64| PictureUrl | BackgroundColor;
+  background: string;
   objects: Array<Block>;
 };
 
@@ -56,14 +49,4 @@ type Doc = {
   name: string;
 };
 
-export type {
-  PictureBase64,
-  PictureUrl,
-  GraphicObject,
-  ImageBlock,
-  TextBlock,
-  Block,
-  BackgroundColor,
-  Slide,
-  Doc,
-};
+export type { GraphicObject, ImageBlock, TextBlock, Block, Slide, Doc };

@@ -1,12 +1,12 @@
-import { BlockType } from '../Block'
-import React from 'react'
-import styles from './GraphicObject.module.css'
+import { BlockType } from "../Block";
+import React from "react";
+import styles from "./GraphicObject.module.css";
 
 type GraphicObjectType = BlockType & {
-  type: string
-  fillColor?: string
-  graphicObjectType: 'rectangle' | 'triangle' | 'circle'
-}
+  type: string;
+  fillColor?: string;
+  graphicObjectType: "rectangle" | "triangle" | "circle";
+};
 
 const GraphicObject = ({
   type,
@@ -14,10 +14,10 @@ const GraphicObject = ({
   borderSize = 1,
   sizeX = 5,
   sizeY = 5,
-  borderColor = 'black',
+  borderColor = "black",
   coordinatesY,
   coordinatesX,
-  fillColor = 'black',
+  fillColor = "black",
   graphicObjectType,
 }: GraphicObjectType) => {
   const rectangle = (
@@ -26,7 +26,7 @@ const GraphicObject = ({
         <rect className={styles.rectangle} fill={fillColor} />
       </svg>
     </div>
-  )
+  );
 
   const circle = (
     <div className={`${styles.circleContainer}`}>
@@ -34,7 +34,7 @@ const GraphicObject = ({
         <circle cx="100" cy="75" r="50" className={styles.circle} fill={fillColor} />
       </svg>
     </div>
-  )
+  );
 
   const triangle = (
     <div className={`${styles.triangleContainer}`}>
@@ -42,22 +42,22 @@ const GraphicObject = ({
         <polygon points="150,60 0,400 300,400" className={styles.triangle} fill={fillColor} />
       </svg>
     </div>
-  )
+  );
 
-  let render
-  if (graphicObjectType === 'rectangle') {
-    render = rectangle
-  } else if (graphicObjectType === 'circle') {
-    render = circle
-  } else if (graphicObjectType === 'triangle') {
-    render = triangle
+  let render;
+  if (graphicObjectType === "rectangle") {
+    render = rectangle;
+  } else if (graphicObjectType === "circle") {
+    render = circle;
+  } else if (graphicObjectType === "triangle") {
+    render = triangle;
   } else {
-    return null
+    return null;
   }
 
-  return render
-}
+  return render;
+};
 
-export { GraphicObject }
+export { GraphicObject };
 
-export type { GraphicObjectType }
+export type { GraphicObjectType };

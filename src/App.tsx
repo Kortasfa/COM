@@ -1,16 +1,10 @@
 import React, { useState } from 'react'
-import topPanelStyles from './Components/Top-panel.module.css'
-import workspaceStyles from './Components/Workspace.module.css'
-import { SlidesDatas } from './Components/SlideData/Slides'
-import { Editor } from './Components/Editor/Editor'
-import { exportSlidesToJson } from './Export'
-
+import SlideImportExport, {SlideDataType} from "./Components/transfer/Import"
+import topPanelStyles from "./Components/Top-panel.module.css";
+import workspaceStyles from "./Components/Workspace.module.css";
+import { Editor } from "./Components/Editor/Editor";
 function App() {
-  const [slidesData, setSlidesData] = useState(SlidesDatas)
-
-  const handleExportClick = () => {
-    exportSlidesToJson(slidesData)
-  }
+  const [slidesData, setSlidesData] = useState<SlideDataType>(null);
   return (
     <>
       <div>
@@ -170,20 +164,21 @@ function App() {
           </div>
         </header>
         <div className={workspaceStyles.workspace}>
-          <button onClick={handleExportClick}>Export</button>
           <div className={workspaceStyles.sidePanel}>
-            <Editor name={'Editor'} slides={SlidesDatas} selectSlide={[1]} selectObject={[2]} />
+            <SlideImportExport slidesData={slidesData} setSlidesData={setSlidesData} />
+            {slidesData && <Editor name={"Editor"} slides={slidesData} selectSlide={[1]} selectObject={[2]} />}
           </div>
           <div className={workspaceStyles.mainArea}>
             <div className={workspaceStyles.canvas}>
-              <div className={workspaceStyles.slidesView}>{SlidesDatas[0]}</div>
+              {slidesData && slidesData.length > 0 && <div className={workspaceStyles.slidesView}>{slidesData[0]}</div>}
             </div>
             <div className={workspaceStyles.notesFieldBlock}></div>
           </div>
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
