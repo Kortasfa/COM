@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="main замержил все изменения">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="main поправил стили">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Block/TextBlock/TextBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/TextBlock/TextBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Slide/Slide.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slide/Slide.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Slide/Slide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slide/Slide.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Block/GraphicObject/GraphicObject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/GraphicObject/GraphicObject.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Block/ImageBlock/ImageBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/ImageBlock/ImageBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/Editor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/Editor.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/SlideData/Slides.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SlideData/Slides.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Workspace.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Workspace.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/useDragAndDrop.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/useDragAndDrop.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700805989196</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="main поправил стили">
+      <option name="closed" value="true" />
+      <created>1700806817519</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700806817519</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +174,7 @@
     <MESSAGE value="Export" />
     <MESSAGE value="korta удалил и перенес лишнее" />
     <MESSAGE value="main замержил все изменения" />
-    <option name="LAST_COMMIT_MESSAGE" value="main замержил все изменения" />
+    <MESSAGE value="main поправил стили" />
+    <option name="LAST_COMMIT_MESSAGE" value="main поправил стили" />
   </component>
 </project>

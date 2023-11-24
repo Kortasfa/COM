@@ -18,7 +18,6 @@ const FirstSlide = (
         textSize={20}
         value={'Hello Andrey!'}
       />,
-
       <GraphicObject
         type={'GraphicObject'}
         id={2}
