@@ -10,7 +10,7 @@ export const Doc = ({ slides }: DocType) => {
     <div style={{ width: '100%', height: '100%' }}>
       {slides &&
         slides.map((Component, index) => (
-          <div style={{ marginBottom: '10px', width: '100%', height: '10%' }} key={index}>
+          <div style={{ marginBottom: '15px', width: '100%', height: '110px' }} key={index}>
             <React.Fragment>{Component}</React.Fragment>
           </div>
         ))}
