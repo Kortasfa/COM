@@ -24,6 +24,9 @@
         "no-unused-vars": "off", // You might want to enable this rule based on your preferences
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "prettier/prettier": ["warn", {
+            "semi": false,
+            "singleQuote": true,
+            "trailingComma": "all",
             "printWidth": 120,
             "tabWidth": 2
         }]
