@@ -19,8 +19,8 @@ export const ImageBlock = ({ src, opacity = 1, sizeX, sizeY, coordinatesX, coord
         className={styles.imageBlock}
         style={{
           opacity: opacity,
-          width: sizeX ? `${sizeX}%` : 'auto',
-          height: sizeY ? `${sizeY}%` : 'auto',
+          width: sizeX ? `${sizeX}%` : '5%',
+          height: sizeY ? `${sizeY}%` : '8%',
           position: 'absolute',
           left: coordinatesX ? `${position.x}px` : 'auto',
           top: coordinatesY ? `${position.y}px` : 'auto',

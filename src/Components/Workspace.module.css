@@ -8,7 +8,7 @@
 
 .sidePanel {
     display: flex;
-    background-color: red;
+    background-color: #f9fbfd;
     width: 200px;
     height: 100%;
 }
@@ -25,14 +25,14 @@
 .canvas {
     display: flex;
     justify-content: center;
-    background-color: lightskyblue;
+    background-color: #f9fbfd;
     width: 98.6%;
     height: 83.3%;
 }
 
 .notesFieldBlock {
     display: flex;
-    background-color: burlywood;
+    background-color: #edf2fa;
     width: 100%;
     height: 13.6%
 }

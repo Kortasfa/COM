@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="main поправил стили">
+    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="main починил drag and drop (не до конца)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Block/GraphicObject/GraphicObject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/GraphicObject/GraphicObject.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Block/ImageBlock/ImageBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/ImageBlock/ImageBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Editor/Editor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/Editor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Doc/Doc.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Doc/Doc.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slide/Slide.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slide/Slide.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/SlideData/Slides.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SlideData/Slides.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/useDragAndDrop.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/useDragAndDrop.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Top-panel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Top-panel.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Workspace.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Workspace.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "korta",
     "ignore.virus.scanning.warn.message": "true",
     "ignore_missing_gitignore": "true",
     "last_opened_file_path": "C:/Users/apppp/WebstormProjects/COM/previousLabs",
@@ -175,6 +180,7 @@
     <MESSAGE value="korta удалил и перенес лишнее" />
     <MESSAGE value="main замержил все изменения" />
     <MESSAGE value="main поправил стили" />
-    <option name="LAST_COMMIT_MESSAGE" value="main поправил стили" />
+    <MESSAGE value="main починил drag and drop (не до конца)" />
+    <option name="LAST_COMMIT_MESSAGE" value="main починил drag and drop (не до конца)" />
   </component>
 </project>

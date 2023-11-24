@@ -24,6 +24,8 @@ const FirstSlide = (
         key={1}
         coordinatesX={10}
         coordinatesY={10}
+        sizeY={10}
+        sizeX={10}
         graphicObjectType={'rectangle'}
         borderSize={20}
       />,
