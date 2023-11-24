@@ -46,16 +46,6 @@
     background-size: contain;
 }
 
-.editorTools:hover {
-    box-shadow: none;
-    background-color: rgba(0, 0, 0, .06);
-    background-image: none;
-    border-color: transparent !important;
-    border-radius: 2px;
-    border-width: 1px;
-    cursor: pointer;
-}
-
 .newSlideButton {
     display: flex;
     justify-content: center;
@@ -136,6 +126,7 @@
     align-items: center;
     width: 2.05%;
     height: 70%;
+    border-width: 0;
 }
 
 .insertImageButton {
@@ -194,3 +185,13 @@
     width: 0.84%;
     height: 73.63%;
 }
+
+/*:hover {*/
+/*    box-shadow: none;*/
+/*    background-color: rgba(0, 0, 0, .06);*/
+/*    background-image: none;*/
+/*    border-color: transparent !important;*/
+/*    border-radius: 2px;*/
+/*    border-width: 1px;*/
+/*    cursor: pointer;*/
+/*}*/

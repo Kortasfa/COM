@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Image = () => {
-  return <img />
+  return <img alt={' '} />
 }
 
 export default Image
