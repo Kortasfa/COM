@@ -4,10 +4,10 @@ import styles from './GraphicObject.module.css'
 import useDraggable from '../../../utils/useDragAndDrop'
 
 type GraphicObjectType = BlockType & {
-  type: string;
-  fillColor?: string;
-  graphicObjectType: "rectangle" | "triangle" | "circle";
-};
+  type: string
+  fillColor?: string
+  graphicObjectType: 'rectangle' | 'triangle' | 'circle'
+}
 
 const GraphicObject = ({
   type,
@@ -15,10 +15,10 @@ const GraphicObject = ({
   borderSize = 1,
   sizeX = 5,
   sizeY = 5,
-  borderColor = "black",
+  borderColor = 'black',
   coordinatesY,
   coordinatesX,
-  fillColor = "black",
+  fillColor = 'black',
   graphicObjectType,
 }: GraphicObjectType) => {
   const { position, onMouseDown, onMouseMove, onMouseUp } = useDraggable()

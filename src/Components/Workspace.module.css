@@ -1,3 +1,7 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
 .workspace {
     display: flex;
     flex-direction: row;
@@ -38,7 +42,6 @@
 }
 
 .slidesView {
-    /* background-color: greenyellow; */
     background-color: rgb(255, 255, 255);
     border: 1px solid #EAEAEA;
     position: relative;

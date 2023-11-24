@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
 export type DocType = {
-  name: string;
-  slides: JSX.Element[];
-};
+  name: string
+  slides: JSX.Element[]
+}
 
 export const Doc = ({ slides }: DocType) => {
   return (
@@ -15,5 +15,5 @@ export const Doc = ({ slides }: DocType) => {
           </div>
         ))}
     </div>
-  );
-};
+  )
+}

@@ -1,17 +1,17 @@
-import React from "react";
-import { Slide, Block } from "./PresentationMakerStructure";
-import { SlideT } from "../Slide/Slide";
-import { TextBlock } from "../Block/TextBlock/TextBlock";
-import { GraphicObject } from "../Block/GraphicObject/GraphicObject";
-import { ImageBlock } from "../Block/ImageBlock/ImageBlock";
-import { doc } from "./half";
+import React from 'react'
+import { Slide, Block } from './PresentationMakerStructure'
+import { SlideT } from '../Slide/SlideT'
+import { TextBlock } from '../Block/TextBlock/TextBlock'
+import { GraphicObject } from '../Block/GraphicObject/GraphicObject'
+import { ImageBlock } from '../Block/ImageBlock/ImageBlock'
+import { doc } from './half'
 
 const createBlockComponent = (block: Block) => {
   switch (block.blockContent.type) {
-    case "text":
+    case 'text':
       return (
         <TextBlock
-          type={"TextBlock"}
+          type={'TextBlock'}
           id={block.ID}
           key={block.ID}
           coordinatesX={block.coordinatesX}
@@ -19,8 +19,8 @@ const createBlockComponent = (block: Block) => {
           textSize={block.blockContent.textSize}
           value={block.blockContent.value}
         />
-      );
-    case "image":
+      )
+    case 'image':
       return (
         <ImageBlock
           id={block.ID}
@@ -28,11 +28,13 @@ const createBlockComponent = (block: Block) => {
           coordinatesX={block.coordinatesX}
           coordinatesY={block.coordinatesY}
           type={block.blockContent.type}
+          sizeX={block.sizeX}
+          sizeY={block.sizeY}
           src={block.blockContent.src}
           opacity={block.blockContent.opacity}
         />
-      );
-    case "figure":
+      )
+    case 'figure':
       return (
         <GraphicObject
           id={block.ID}
@@ -42,16 +44,16 @@ const createBlockComponent = (block: Block) => {
           graphicObjectType={block.blockContent.figureType}
           type={block.blockContent.type}
         />
-      );
+      )
     default:
-      return null;
+      return null
   }
-};
+}
 
 const createSlideComponent = (slide: Slide) => {
-  return <SlideT id={slide.ID} background={slide.background} objects={slide.objects.map(createBlockComponent)} />;
-};
+  return <SlideT id={slide.ID} background={slide.background} objects={slide.objects.map(createBlockComponent)} />
+}
 
-const SlidesData = doc.slides.map(createSlideComponent);
+const SlidesData = doc.slides.map(createSlideComponent)
 
-export { SlidesData };
+export { SlidesData }

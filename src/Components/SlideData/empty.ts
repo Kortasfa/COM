@@ -1,8 +1,8 @@
-import { type Doc } from "../../../previousLabs/PresentationMakerStructure";
+import { type Doc } from '../../../previousLabs/PresentationMakerStructure'
 
 const emptyDoc: Doc = {
   slides: [],
-  name: "Empty Document",
-};
+  name: 'Empty Document',
+}
 
-export { emptyDoc };
+export { emptyDoc }
