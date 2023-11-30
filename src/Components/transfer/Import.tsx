@@ -50,8 +50,6 @@ const SlideImportExport = ({ slidesData, setSlidesData }: SlideImportExportProps
   const handleExportClick = () => {
     if (slidesData) {
       exportSlidesToJson(slidesData)
-    } else {
-      console.log('No slides data to export')
     }
   }
 
@@ -124,7 +122,7 @@ const SlideImportExport = ({ slidesData, setSlidesData }: SlideImportExportProps
   }
   return (
     <div className={workspaceStyles.sidePanel}>
-      <input type="file" ref={fileInputRef} onChange={handleFileSelection} style={{ display: 'none' }} />
+      <input type="file" ref={fileInputRef} onChange={handleFileSelection} className={workspaceStyles.input} />
       <button onClick={handleExportClick}>Export</button>
       <button onClick={handleButtonClick}>Import</button>
     </div>

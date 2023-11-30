@@ -31,7 +31,6 @@ const textBlock2: TextBlock = {
   textColor: 'black',
   value: 'Hello, World!',
   textSize: 12,
-
 }
 
 const block1: Block = {

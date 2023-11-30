@@ -7,7 +7,7 @@ type GraphicObject = {
 type ImageBlock = {
   type: 'image'
   src: string
-  opacity?: number,
+  opacity?: number
 }
 
 type TextBlock = {
