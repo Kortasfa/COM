@@ -19,11 +19,12 @@ const GraphicObject = ({
   sizeY = 5,
   coordinatesX,
   coordinatesY,
+  scalePercent,
 }: GraphicObjectType) => {
   const { position, onMouseDown, onMouseMove, onMouseUp } = useDraggable()
   const commonStyle: React.CSSProperties = {
-    width: `${sizeX}%`,
-    height: `${sizeY}%`,
+    width: `${sizeX * scalePercent}%`,
+    height: `${sizeY * scalePercent}%`,
     position: 'absolute',
     left: coordinatesX ? `${position.x}px` : 'auto',
     top: coordinatesY ? `${position.y}px` : 'auto',

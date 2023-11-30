@@ -9,7 +9,15 @@ type ImageBlockType = BlockType & {
   opacity?: number
 }
 
-export const ImageBlock = ({ src, opacity = 1, sizeX, sizeY, coordinatesX, coordinatesY }: ImageBlockType) => {
+export const ImageBlock = ({
+  src,
+  opacity = 1,
+  sizeX = 5,
+  sizeY = 5,
+  coordinatesX,
+  coordinatesY,
+  scalePercent,
+}: ImageBlockType) => {
   const { position, onMouseDown, onMouseMove, onMouseUp } = useDraggable()
   return (
     <div onMouseMove={onMouseMove} onMouseUp={onMouseUp}>
@@ -19,8 +27,8 @@ export const ImageBlock = ({ src, opacity = 1, sizeX, sizeY, coordinatesX, coord
         className={styles.imageBlock}
         style={{
           opacity: opacity,
-          width: sizeX ? `${sizeX}%` : '5%',
-          height: sizeY ? `${sizeY}%` : '8%',
+          width: `${sizeX * scalePercent}%`,
+          height: `${sizeY * scalePercent}%`,
           position: 'absolute',
           left: coordinatesX ? `${position.x}px` : 'auto',
           top: coordinatesY ? `${position.y}px` : 'auto',

@@ -1,196 +1,198 @@
-
 .topPanel {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 113px;
-    background-color: #f9fbfd
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 113px;
+  background-color: #f9fbfd;
 }
 
 .titleBar {
-    background-color: #FFFFFF;
-    /* blanchedalmond */
-    width: 100%;
-    height: 28.14%
+  background-color: #ffffff;
+  /* blanchedalmond */
+  width: 100%;
+  height: 28.14%;
 }
 
 .menuPanel {
-    background-color: #FFFFFF;
-    /* gray */
-    height: 29%;
-    width: 100%;
-    transition-duration: .1s;
+  background-color: #ffffff;
+  /* gray */
+  height: 29%;
+  width: 100%;
+  transition-duration: 0.1s;
 }
 
 .editorPanel {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.6%;
-    background-color: #edf2fa;
-    border: none;
-    border-radius: 24px;
-    font-family: Google Sans, Roboto, sans-serif;
-    margin: 6px 16px 8px 16px;
-    height: 35%;
-    padding: 0 8px;
-    -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6%;
+  background-color: #edf2fa;
+  border: none;
+  border-radius: 24px;
+  font-family:
+    Google Sans,
+    Roboto,
+    sans-serif;
+  margin: 6px 16px 8px 16px;
+  height: 35%;
+  padding: 0 8px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .searchButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.57%;
-    height: 70%;
-    background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.57%;
+  height: 70%;
+  background-size: contain;
 }
 
 .editorTools:hover {
-    box-shadow: none;
-    background-color: rgba(0, 0, 0, .06);
-    background-image: none;
-    border-color: transparent !important;
-    border-radius: 2px;
-    border-width: 1px;
-    cursor: pointer;
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.06);
+  background-image: none;
+  border-color: transparent !important;
+  border-radius: 2px;
+  border-width: 1px;
+  cursor: pointer;
 }
 
 .newSlideButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.05%;
-    height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.05%;
+  height: 70%;
 }
 
 .newSlideMaketButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 0.84%;
-    height: 73.63%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0.84%;
+  height: 73.63%;
 }
 
 .undoButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.05%;
-    height: 70%;
-    background-color: lightslategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.05%;
+  height: 70%;
+  background-color: lightslategray;
 }
 
 .redoButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.05%;
-    height: 70%;
-    background-color: lightslategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.05%;
+  height: 70%;
+  background-color: lightslategray;
 }
 
 .printButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.05%;
-    height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.05%;
+  height: 70%;
 }
 
 .formattingButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.05%;
-    height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.05%;
+  height: 70%;
 }
 
 .scaleButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.05%;
-    height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.05%;
+  height: 70%;
 }
 
 .scaleValueButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 5.65%;
-    height: 70.68%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.65%;
+  height: 70.68%;
 }
 
 .chooseButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.05%;
-    height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.05%;
+  height: 70%;
 }
 
 .textFieldButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.05%;
-    height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.05%;
+  height: 70%;
 }
 
 .insertImageButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.05%;
-    height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.05%;
+  height: 70%;
 }
 
 .figureButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.2%;
-    height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.2%;
+  height: 70%;
 }
 
 .lineButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.05%;
-    height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.05%;
+  height: 70%;
 }
 
 .chooseLineButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 0.84%;
-    height: 73.63%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0.84%;
+  height: 73.63%;
 }
 
 .addCommentsButton {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    width: 2.05%;
-    height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 2.05%;
+  height: 70%;
 }
 
 .inputMethodsButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 0.84%;
-    height: 73.63%;
-    background-color: lightslategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0.84%;
+  height: 73.63%;
+  background-color: lightslategray;
 }
 
 .chooseInputMethodsButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 0.84%;
-    height: 73.63%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0.84%;
+  height: 73.63%;
 }

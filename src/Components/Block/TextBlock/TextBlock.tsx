@@ -27,10 +27,11 @@ export const TextBlock = ({
   textUnderlines = false,
   textItalic = false,
   textHighlight = '',
-  sizeX,
-  sizeY,
+  sizeX = 5,
+  sizeY = 5,
   coordinatesX,
   coordinatesY,
+  scalePercent,
 }: TextBlockType) => {
   const { position, onMouseDown, onMouseMove, onMouseUp } = useDraggable()
   return (
@@ -39,8 +40,8 @@ export const TextBlock = ({
         className={styles.textBlockContainer}
         style={{
           backgroundColor: fillColor,
-          width: sizeX ? `${sizeX}%` : 'auto',
-          height: sizeY ? `${sizeY}%` : 'auto',
+          width: `${sizeX * scalePercent}%`,
+          height: `${sizeY * scalePercent}%`,
           position: 'absolute',
           left: coordinatesX ? `${position.x}px` : 'auto',
           top: coordinatesY ? `${position.y}px` : 'auto',

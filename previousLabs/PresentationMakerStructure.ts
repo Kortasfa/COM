@@ -1,58 +1,58 @@
 interface PictureBase64 {
-  PictureBase64: string
+  PictureBase64: string;
 }
 
 interface PictureUrl {
-  PictureUrl: string
+  PictureUrl: string;
 }
 
 interface Block {
-  ID: number
-  borderSize: number
-  borderColor: string
-  coordinatesX: number
-  coordinatesY: number
-  sizeX: number
-  sizeY: number
+  ID: number;
+  borderSize: number;
+  borderColor: string;
+  coordinatesX: number;
+  coordinatesY: number;
+  sizeX: number;
+  sizeY: number;
 }
 
 interface GraphicObject extends Block {
-  fillColor: string
-  graphicObjectType: 'rectangle' | 'triangle' | 'circle'
+  fillColor: string;
+  graphicObjectType: "rectangle" | "triangle" | "circle";
 }
 
 interface ImageBlock extends Block {
-  type: 'image'
-  src: PictureBase64 | PictureUrl
-  opacity: number
+  type: "image";
+  src: PictureBase64 | PictureUrl;
+  opacity: number;
 }
 
 interface TextBlock extends Block {
-  type: 'text'
-  value: string
-  fillColor: string
-  textColor: string
-  textFont: string
-  textSize: number
-  textBoldness: boolean
-  textUnderlines: boolean
-  textItalic: boolean
-  textHighlight: string
+  type: "text";
+  value: string;
+  fillColor: string;
+  textColor: string;
+  textFont: string;
+  textSize: number;
+  textBoldness: boolean;
+  textUnderlines: boolean;
+  textItalic: boolean;
+  textHighlight: string;
 }
 
 interface BackgroundColor {
-  BackgroundColor: string
+  BackgroundColor: string;
 }
 
 interface Slide {
-  ID: number
-  background: PictureBase64 | PictureUrl | BackgroundColor
-  objects: TextBlock | GraphicObject | ImageBlock
+  ID: number;
+  background: PictureBase64 | PictureUrl | BackgroundColor;
+  objects: TextBlock | GraphicObject | ImageBlock;
 }
 
 interface Doc {
-  slides: Slide[]
-  name: string
+  slides: Slide[];
+  name: string;
 }
 
 // type Action = {
@@ -69,14 +69,14 @@ interface Doc {
 // }
 
 interface SelectionSlide {
-  selectSlide: number
-  selectObject: number[]
+  selectSlide: number;
+  selectObject: number[];
 }
 
 interface Editor {
   // history: Array<Action> //empty
-  selection: SelectionSlide[]
-  doc: Doc
+  selection: SelectionSlide[];
+  doc: Doc;
 }
 
 export type {
@@ -91,4 +91,4 @@ export type {
   Doc,
   SelectionSlide,
   Editor,
-}
+};

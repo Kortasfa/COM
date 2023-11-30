@@ -1,8 +1,12 @@
-import { SlideType } from './Components/Slide/Slide'
+import { SlideType } from '../Components/Slide/Slide'
 
 export const exportSlidesToJson = (slidesData: JSX.Element[]) => {
   const slidesArray: SlideType[] = slidesData.map((slide, index) => {
-    const { id, background, objects } = slide.props as { id: number; background: string; objects?: JSX.Element[] }
+    const { id, background, objects } = slide.props as {
+      id: number
+      background: string
+      objects?: JSX.Element[]
+    }
     return {
       id,
       background,
