@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { SlideT } from '../Slide/SlideT'
+import React from 'react'
 import topPanelStyles from '../Top-panel.module.css'
 
 // type addSlideButtonType = {

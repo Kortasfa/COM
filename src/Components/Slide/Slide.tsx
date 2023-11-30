@@ -7,7 +7,7 @@ type SlideType = {
   objects: React.ReactNode[]
 }
 
-export const SlideT = ({ id, background, objects }: SlideType) => {
+const SlideComponent = ({ id, background, objects }: SlideType) => {
   return (
     <div style={{ background }} className={styles.slideContainer}>
       {objects && objects.map((Component, index) => <React.Fragment key={index}>{Component}</React.Fragment>)}
@@ -16,3 +16,4 @@ export const SlideT = ({ id, background, objects }: SlideType) => {
 }
 
 export type { SlideType }
+export { SlideComponent }

@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { ImageBlock } from '../Block/ImageBlock/ImageBlock'
-import { SlideT } from '../Slide/SlideT'
+import React from 'react'
 import topPanelStyles from '../Top-panel.module.css'
 
 const UndoButton = () => {

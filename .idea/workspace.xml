@@ -5,13 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="Export">
+      <change afterPath="$PROJECT_DIR$/src/Components/SlideManager/Import.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/StartPanel/playerStart.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/StartPanel/startSlide.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/WorkSpace.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/PresentationMakerStructure.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SlideData/PresentationMakerStructure.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/half.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SlideData/half.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Top-panel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Top-panel.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/AddCommentButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/AddCommentButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/ChooseButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/ChooseInputMethodsButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseInputMethodsButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/ChooseLineButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseLineButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/FigureButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/FigureButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/FormattingButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/FormattingButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/InputMethodsButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/InputMethodsButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/InsertImageButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/InsertImageButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/LineButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/LineButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/NewSlideButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/NewSlideButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/NewSlideMaketButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/NewSlideMaketButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/PrintButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/PrintButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/RedoButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/RedoButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/ScaleButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ScaleButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/ScaleValueButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ScaleValueButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/SearchButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/SearchButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/UndoButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/UndoButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slide/SlideT.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slide/Slide.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/Example" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/Example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/PresentationMakerStructure.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/PresentationMakerStructure.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/Slides.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/Slides.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/empty.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/empty.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/half.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/half.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/slides.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/slides.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Workspace.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Workspace.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/transfer/Import.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/transfer/Import.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/transfer/Export.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SlideManager/Export.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/transfer/Import.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SlideManager/SlideOrganizer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +92,11 @@
       <recent name="C:\Users\korta\WebstormProjects\COM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\apppp\WebstormProjects\COM\src\Components" />
+      <recent name="C:\Users\apppp\WebstormProjects\COM\src\testData" />
       <recent name="C:\Users\apppp\WebstormProjects\COM\src\Components\transfer" />
       <recent name="C:\Users\apppp\WebstormProjects\COM\src\Components\SlideData" />
       <recent name="C:\Users\korta\WebstormProjects\COM" />
-      <recent name="C:\Users\korta\WebstormProjects\COM\pres-maker\example" />
-      <recent name="C:\Users\korta\WebstormProjects\COM\pres-maker" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,6 +122,8 @@
       <workItem from="1700304486093" duration="335000" />
       <workItem from="1700763465506" duration="4063000" />
       <workItem from="1700804822687" duration="3371000" />
+      <workItem from="1701332025963" duration="143000" />
+      <workItem from="1701360310042" duration="8889000" />
     </task>
     <task id="LOCAL-00001" summary="korta упростил проект, убрал лишнее">
       <option name="closed" value="true" />
@@ -129,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700814624345</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Export">
+      <option name="closed" value="true" />
+      <created>1701332097244</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701332097244</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

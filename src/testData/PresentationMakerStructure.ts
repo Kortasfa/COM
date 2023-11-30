@@ -34,10 +34,6 @@ type Block = {
   sizeY: number
 }
 
-// type BackgroundColor = {
-//   BackgroundColor: string
-// }
-
 type Slide = {
   ID: number
   background: string

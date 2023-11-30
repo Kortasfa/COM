@@ -1,9 +1,9 @@
 import React from 'react'
-import { Slide, Block } from './PresentationMakerStructure'
-import { SlideT } from '../Slide/SlideT'
-import { TextBlock } from '../Block/TextBlock/TextBlock'
-import { GraphicObject } from '../Block/GraphicObject/GraphicObject'
-import { ImageBlock } from '../Block/ImageBlock/ImageBlock'
+import { Slide, Block} from './PresentationMakerStructure'
+import { SlideComponent } from '../Components/Slide/Slide'
+import { TextBlock } from '../Components/Block/TextBlock/TextBlock'
+import { GraphicObject } from '../Components/Block/GraphicObject/GraphicObject'
+import { ImageBlock } from '../Components/Block/ImageBlock/ImageBlock'
 import { doc } from './half'
 
 const createBlockComponent = (block: Block) => {
@@ -51,7 +51,9 @@ const createBlockComponent = (block: Block) => {
 }
 
 const createSlideComponent = (slide: Slide) => {
-  return <SlideT id={slide.ID} background={slide.background} objects={slide.objects.map(createBlockComponent)} />
+  return (
+    <SlideComponent id={slide.ID} background={slide.background} objects={slide.objects.map(createBlockComponent)} />
+  )
 }
 
 const SlidesData = doc.slides.map(createSlideComponent)

@@ -1,10 +1,9 @@
-import { SlideT } from '../Slide/SlideT'
+import React from 'react'
 import { TextBlock } from '../Block/TextBlock/TextBlock'
-import { GraphicObject } from '../Block/GraphicObject/GraphicObject'
 import { ImageBlock } from '../Block/ImageBlock/ImageBlock'
-import React, { useRef, useState } from 'react'
-import { exportSlidesToJson } from './Export'
-import workspaceStyles from '../Workspace.module.css'
+import { GraphicObject } from '../Block/GraphicObject/GraphicObject'
+import { SlideComponent } from '../Slide/Slide'
+import { SlideDataType } from './SlideOrganizer'
 
 interface ObjectData {
   key: string
@@ -38,40 +37,14 @@ interface GraphicObjectProps {
   coordinatesY: number
   graphicObjectType: 'rectangle' | 'triangle' | 'circle'
 }
-export type SlideDataType = JSX.Element[] | null
-interface SlideImportExportProps {
+
+export interface SlideProps {
   slidesData: SlideDataType
   setSlidesData: React.Dispatch<React.SetStateAction<SlideDataType>>
 }
 
-const SlideImportExport = ({ slidesData, setSlidesData }: SlideImportExportProps) => {
-  const fileInputRef = useRef<HTMLInputElement>(null)
-
-  const handleExportClick = () => {
-    if (slidesData) {
-      exportSlidesToJson(slidesData)
-    }
-  }
-
-  const handleButtonClick = () => {
-    fileInputRef.current?.click()
-  }
-
-  const handleFileSelection = (event: React.ChangeEvent<HTMLInputElement>) => {
-    if (event.target.files && event.target.files[0]) {
-      const fileReader = new FileReader()
-      fileReader.readAsText(event.target.files[0], 'UTF-8')
-      fileReader.onload = (e) => {
-        const result = (e.target as FileReader).result
-        if (typeof result === 'string') {
-          const newData = JSON.parse(result)
-          const transformedSlides = transformData(newData)
-          setSlidesData(transformedSlides)
-        }
-      }
-    }
-  }
-  const transformData = (jsonData: JSX.Element[]) => {
+const transformData = (jsonData: JSX.Element[]) => {
+  try {
     return jsonData.map((slide) => {
       const objects = slide.props.objects.map((obj: ObjectData) => {
         switch (obj.props.type) {
@@ -117,16 +90,19 @@ const SlideImportExport = ({ slidesData, setSlidesData }: SlideImportExportProps
         }
       })
 
-      return <SlideT key={slide.props.id} id={slide.props.id} background={slide.props.background} objects={objects} />
+      return (
+        <SlideComponent
+          key={slide.props.id}
+          id={slide.props.id}
+          background={slide.props.background}
+          objects={objects}
+        />
+      )
     })
+  } catch (error) {
+    // console.error('Ошибка при обработке JSON:', error)
+    return null
   }
-  return (
-    <div className={workspaceStyles.sidePanel}>
-      <input type="file" ref={fileInputRef} onChange={handleFileSelection} className={workspaceStyles.input} />
-      <button onClick={handleExportClick}>Export</button>
-      <button onClick={handleButtonClick}>Import</button>
-    </div>
-  )
 }
 
-export default SlideImportExport
+export { transformData }
