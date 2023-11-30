@@ -5,27 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="korta удалил и перенес лишнее">
-      <change afterPath="$PROJECT_DIR$/src/Components/Editor/AddCommentButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseInputMethodsButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseLineButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Editor/FigureButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Editor/FormattingButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Editor/Image.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Editor/InputMethodsButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Editor/LineButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Editor/PrintButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Editor/RedoButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Editor/ScaleButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Editor/ScaleValueButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Editor/SearchButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Editor/UndoButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Editor/AddImageButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/InsertImageButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Editor/AddSlideButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/NewSlideButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Editor/AddSlideMaketButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/NewSlideMaketButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Editor/AddTextFieldButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/TextFieldButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/AddCommentButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/ChooseButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/ChooseInputMethodsButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/ChooseLineButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseLineButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/Editor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/Editor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/FigureButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/FigureButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/FormattingButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/InputMethodsButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/InsertImageButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/InsertImageButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/LineButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/LineButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/NewSlideButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/NewSlideButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/NewSlideMaketButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/NewSlideMaketButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/PrintButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/RedoButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/RedoButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/ScaleButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/ScaleValueButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/SearchButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/TextFieldButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/TextFieldButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/UndoButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/UndoButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Top-panel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Top-panel.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/arrowdown_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/arrowdown_icon2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/arrowdown_icon3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/comment_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/figures_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/image_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/line_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/plus_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/plus_icon2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/pointer_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/pointer_icon2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/print_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/roller_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/search_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/search_icon2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/textfield_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/editor/zoom_icon.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,27 +70,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "ilsaf",
-    "ignore.virus.scanning.warn.message": "true",
-    "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "C:/Users/apppp/WebstormProjects/COM/previousLabs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "C:\\Users\\korta\\WebstormProjects\\COM\\node_modules\\stylelint",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\2ndCourse\\frontendCourse\\COM\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ilsaf&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/apppp/WebstormProjects/COM/previousLabs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;C:\\Users\\korta\\WebstormProjects\\COM\\node_modules\\stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\2ndCourse\\frontendCourse\\COM\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\apppp\WebstormProjects\COM\previousLabs" />
@@ -107,6 +125,7 @@
       <workItem from="1700193806414" duration="1302000" />
       <workItem from="1700304486093" duration="335000" />
       <workItem from="1700309939008" duration="32000" />
+      <workItem from="1701366366365" duration="9059000" />
     </task>
     <task id="LOCAL-00001" summary="korta упростил проект, убрал лишнее">
       <option name="closed" value="true" />
