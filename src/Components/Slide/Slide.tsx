@@ -4,10 +4,10 @@ import styles from './Slide.module.css'
 type SlideType = {
   id: number
   background: string
-  objects?: React.ReactNode[]
+  objects: React.ReactNode[]
 }
 
-export const Slide = ({ id, background, objects }: SlideType) => {
+const SlideComponent = ({ id, background, objects }: SlideType) => {
   return (
     <div style={{ background }} className={styles.slideContainer}>
       {objects && objects.map((Component, index) => <React.Fragment key={index}>{Component}</React.Fragment>)}
@@ -16,3 +16,4 @@ export const Slide = ({ id, background, objects }: SlideType) => {
 }
 
 export type { SlideType }
+export { SlideComponent }

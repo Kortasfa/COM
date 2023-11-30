@@ -1,38 +1,28 @@
 import {
-  type PictureBase64,
-  type PictureUrl,
   type GraphicObject,
   type ImageBlock,
   type TextBlock,
   type Block,
-  type BackgroundColor,
   type Slide,
   type Doc,
 } from './PresentationMakerStructure'
 
-const pictureBase64: PictureBase64 = {
-  PictureBase64:'https://alex-bulychev.ru/wp-content/uploads/2013/08/base64.png'
-}
-
-const pictureUrl: PictureUrl = {
-  PictureUrl: 'https://alex-bulychev.ru/wp-content/uploads/2013/08/base64.png',
-}
-
 const graphicObject: GraphicObject = {
+  type: 'figure',
   fillColor: '#00FF00',
   figureType: 'rectangle',
 }
 
 const imageBlock: ImageBlock = {
   type: 'image',
-  src: pictureBase64,
+  src: 'https://alex-bulychev.ru/wp-content/uploads/2013/08/base64.png',
   opacity: 0.8,
 }
 
 const textBlock1: TextBlock = {
   type: 'text',
   textColor: 'black',
-  value: 'Hello, World!',
+  value: 'Hells, World!',
   textSize: 12,
 }
 
@@ -50,8 +40,8 @@ const block1: Block = {
   borderColor: '#FF0000',
   coordinatesX: 10,
   coordinatesY: 20,
-  sizeX: 100,
-  sizeY: 50,
+  sizeX: 10,
+  sizeY: 10,
 }
 
 const block2: Block = {
@@ -61,8 +51,8 @@ const block2: Block = {
   borderColor: '#00FFFF',
   coordinatesX: 50,
   coordinatesY: 30,
-  sizeX: 120,
-  sizeY: 80,
+  sizeX: 40,
+  sizeY: 40,
 }
 
 const block3: Block = {
@@ -76,30 +66,22 @@ const block3: Block = {
   sizeY: 60,
 }
 
-const backgroundColor1: BackgroundColor = {
-  BackgroundColor: '#CCCCCC',
-}
-
-const backgroundColor2: BackgroundColor = {
-  BackgroundColor: '#FFFFFFF',
-}
-
 const slide1: Slide = {
   ID: 1,
   objects: [block1],
-  background: backgroundColor1,
+  background: 'white',
 }
 
 const slide2: Slide = {
   ID: 2,
   objects: [block2, block3],
-  background: backgroundColor2,
+  background: 'black',
 }
 
 const slide3: Slide = {
   ID: 3,
   objects: [block1, block2, block3],
-  background: backgroundColor2,
+  background: 'purple',
 }
 
 const doc: Doc = {
@@ -107,18 +89,4 @@ const doc: Doc = {
   name: 'Document Name',
 }
 
-export {
-  pictureBase64,
-  pictureUrl,
-  graphicObject,
-  imageBlock,
-  slide1,
-  slide2,
-  slide3,
-  textBlock1,
-  textBlock2,
-  block1,
-  block2,
-  block3,
-  doc,
-}
+export { graphicObject, imageBlock, slide1, slide2, slide3, textBlock1, textBlock2, block1, block2, block3, doc }

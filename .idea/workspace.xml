@@ -4,36 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="main начал менять все стили">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+    <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="Export">
+      <change afterPath="$PROJECT_DIR$/src/Components/SlideManager/Import.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/StartPanel/playerStart.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/StartPanel/startSlide.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/WorkSpace.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/previousLabs/Notes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/previousLabs/Notes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/previousLabs/PresentationMakerStructure.ts" beforeDir="false" afterPath="$PROJECT_DIR$/previousLabs/PresentationMakerStructure.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/previousLabs/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/previousLabs/data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/previousLabs/empty.ts" beforeDir="false" afterPath="$PROJECT_DIR$/previousLabs/empty.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/previousLabs/full.ts" beforeDir="false" afterPath="$PROJECT_DIR$/previousLabs/full.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/previousLabs/half.ts" beforeDir="false" afterPath="$PROJECT_DIR$/previousLabs/half.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Block/Block.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/Block.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Block/GraphicObject/GraphicObject.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/GraphicObject/GraphicObject.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Block/GraphicObject/GraphicObject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/GraphicObject/GraphicObject.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Block/ImageBlock/ImageBlock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/ImageBlock/ImageBlock.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Block/ImageBlock/ImageBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/ImageBlock/ImageBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Block/TextBlock/TextBlock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/TextBlock/TextBlock.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Block/TextBlock/TextBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/TextBlock/TextBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Doc/Doc.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Doc/Doc.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Editor/AddCommentButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/AddCommentButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Editor/ChooseButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Editor/ChooseInputMethodsButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseInputMethodsButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Editor/ChooseLineButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseLineButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Editor/Editor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/Editor.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Editor/FigureButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/FigureButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Editor/FormattingButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/FormattingButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Editor/Image.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/Image.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Editor/InputMethodsButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/InputMethodsButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Editor/InsertImageButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/InsertImageButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Editor/LineButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/LineButton.tsx" afterDir="false" />
@@ -44,24 +27,17 @@
       <change beforePath="$PROJECT_DIR$/src/Components/Editor/ScaleButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ScaleButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Editor/ScaleValueButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ScaleValueButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Editor/SearchButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/SearchButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Editor/TextFieldButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/TextFieldButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Editor/UndoButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/UndoButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Image.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Image.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Selection/Selection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selection/Selection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Selection/SelectionObject/SelectionObject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selection/SelectionObject/SelectionObject.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Selection/SelectionSlide/SelectionSlide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selection/SelectionSlide/SelectionSlide.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Slide/Slide.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slide/Slide.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/Slides.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SlideData/Slides.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/slides.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SlideData/slides.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Top-panel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Top-panel.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slide/SlideT.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slide/Slide.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/Example" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/Example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/PresentationMakerStructure.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/PresentationMakerStructure.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/Slides.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/Slides.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/empty.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/empty.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/half.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/half.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SlideData/slides.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/slides.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Workspace.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Workspace.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Export.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/exportSlidesToJson.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/useDragAndDrop.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/useDragAndDrop.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/transfer/Export.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SlideManager/Export.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/transfer/Import.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SlideManager/SlideOrganizer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,16 +47,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -97,10 +70,10 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;korta&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;RLafleet-branch&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/apppp/WebstormProjects/COM/previousLabs&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/apppp/WebstormProjects/COM/src/Components/SlideData&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -108,21 +81,22 @@
     &quot;node.js.selected.package.stylelint&quot;: &quot;C:\\Users\\korta\\WebstormProjects\\COM\\node_modules\\stylelint&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\korta\\WebstormProjects\\COM\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\apppp\\WebstormProjects\\COM\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\apppp\WebstormProjects\COM\src\Components\SlideData" />
       <recent name="C:\Users\apppp\WebstormProjects\COM\previousLabs" />
       <recent name="C:\Users\korta\WebstormProjects\COM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\korta\WebstormProjects\COM\src\utils" />
+      <recent name="C:\Users\apppp\WebstormProjects\COM\src\Components" />
+      <recent name="C:\Users\apppp\WebstormProjects\COM\src\testData" />
+      <recent name="C:\Users\apppp\WebstormProjects\COM\src\Components\transfer" />
       <recent name="C:\Users\apppp\WebstormProjects\COM\src\Components\SlideData" />
       <recent name="C:\Users\korta\WebstormProjects\COM" />
-      <recent name="C:\Users\korta\WebstormProjects\COM\pres-maker\example" />
-      <recent name="C:\Users\korta\WebstormProjects\COM\pres-maker" />
     </key>
   </component>
   <component name="RunManager">
@@ -131,26 +105,7 @@
       <command value="start" />
       <node-interpreter value="project" />
       <envs />
-      <method v="2">
-        <option name="NpmBeforeRunTask" enabled="true">
-          <package-json value="$PROJECT_DIR$/package.json" />
-          <command value="run" />
-          <scripts>
-            <script value="prettier" />
-          </scripts>
-          <node-interpreter value="project" />
-          <envs />
-        </option>
-        <option name="NpmBeforeRunTask" enabled="true">
-          <package-json value="$PROJECT_DIR$/package.json" />
-          <command value="run" />
-          <scripts>
-            <script value="lint" />
-          </scripts>
-          <node-interpreter value="project" />
-          <envs />
-        </option>
-      </method>
+      <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -165,9 +120,10 @@
       <workItem from="1700130578203" duration="2809000" />
       <workItem from="1700193806414" duration="1302000" />
       <workItem from="1700304486093" duration="335000" />
-      <workItem from="1701253768575" duration="769000" />
-      <workItem from="1701328985009" duration="5310000" />
-      <workItem from="1701336453157" duration="2840000" />
+      <workItem from="1700763465506" duration="4063000" />
+      <workItem from="1700804822687" duration="3371000" />
+      <workItem from="1701332025963" duration="143000" />
+      <workItem from="1701360310042" duration="8889000" />
     </task>
     <task id="LOCAL-00001" summary="korta упростил проект, убрал лишнее">
       <option name="closed" value="true" />
@@ -193,39 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700308110036</updated>
     </task>
-    <task id="LOCAL-00004" summary="main замержил все изменения">
+    <task id="LOCAL-00004" summary="Export">
       <option name="closed" value="true" />
-      <created>1700805862599</created>
+      <created>1700814624345</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1700805862599</updated>
+      <updated>1700814624345</updated>
     </task>
-    <task id="LOCAL-00005" summary="main замержил все изменения">
+    <task id="LOCAL-00005" summary="Export">
       <option name="closed" value="true" />
-      <created>1700805989196</created>
+      <created>1701332097244</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1700805989196</updated>
+      <updated>1701332097244</updated>
     </task>
-    <task id="LOCAL-00006" summary="main поправил стили">
-      <option name="closed" value="true" />
-      <created>1700806817519</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1700806817519</updated>
-    </task>
-    <task id="LOCAL-00007" summary="main начал менять все стили">
-      <option name="closed" value="true" />
-      <created>1700818632580</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1700818632580</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,12 +186,8 @@
     <MESSAGE value="изменения" />
     <MESSAGE value="korta упростил проект, убрал лишнее" />
     <MESSAGE value="-" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="Export" />
-    <MESSAGE value="korta удалил и перенес лишнее" />
-    <MESSAGE value="main замержил все изменения" />
-    <MESSAGE value="main поправил стили" />
-    <MESSAGE value="main починил drag and drop (не до конца)" />
-    <MESSAGE value="main начал менять все стили" />
-    <option name="LAST_COMMIT_MESSAGE" value="main начал менять все стили" />
+    <option name="LAST_COMMIT_MESSAGE" value="Export" />
   </component>
 </project>

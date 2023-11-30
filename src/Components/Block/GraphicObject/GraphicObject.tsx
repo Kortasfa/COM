@@ -13,12 +13,13 @@ const GraphicObject = ({
   type,
   id,
   borderSize = 1,
-  fillColor = 'black',
-  graphicObjectType,
   sizeX = 5,
   sizeY = 5,
-  coordinatesX,
+  borderColor = 'black',
   coordinatesY,
+  coordinatesX,
+  fillColor = 'black',
+  graphicObjectType,
   scalePercent,
 }: GraphicObjectType) => {
   const { position, onMouseDown, onMouseMove, onMouseUp } = useDraggable()
