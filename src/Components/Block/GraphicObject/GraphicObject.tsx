@@ -20,11 +20,12 @@ const GraphicObject = ({
   coordinatesX,
   fillColor = 'black',
   graphicObjectType,
+  scalePercent = 10,
 }: GraphicObjectType) => {
   const { position, onMouseDown, onMouseMove, onMouseUp } = useDraggable()
   const commonStyle: React.CSSProperties = {
-    width: `${sizeX}%`,
-    height: `${sizeY}%`,
+    width: `${sizeX * scalePercent}%`,
+    height: `${sizeY * scalePercent}%`,
     position: 'absolute',
     left: coordinatesX ? `${position.x}px` : 'auto',
     top: coordinatesY ? `${position.y}px` : 'auto',
@@ -54,6 +55,7 @@ const GraphicObject = ({
     </div>
   )
 
+  // Choose the appropriate graphic type
   let render
   if (graphicObjectType === 'rectangle') {
     render = rectangle

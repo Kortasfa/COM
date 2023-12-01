@@ -1,41 +1,41 @@
 /* GraphicObject.module.css */
 
 .graphic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .rectangleContainer {
-    /* Add styles for the rectangle container if needed */
+  /* Add styles for the rectangle container if needed */
 }
 
 .rectangle {
-    /* Add styles for the rectangle */
-    width: 100%;
-    height: 100%;
-    stroke: #000;
-    stroke-width: 2;
+  /* Add styles for the rectangle */
+  width: 100%;
+  height: 100%;
+  stroke: #000;
+  stroke-width: 2;
 }
 
 .triangleContainer {
-    /* Add styles for the triangle container if needed */
+  /* Add styles for the triangle container if needed */
 }
 
 .triangle {
-    /* Add styles for the triangle */
-    stroke: #000;
-    stroke-width: 2;
+  /* Add styles for the triangle */
+  stroke: #000;
+  stroke-width: 2;
 }
 
 .circleContainer {
-    /* Add styles for the circle container if needed */
+  /* Add styles for the circle container if needed */
 }
 
 .circle {
-    /* Add styles for the circle */
-    stroke: #000;
-    stroke-width: 2;
+  /* Add styles for the circle */
+  stroke: #000;
+  stroke-width: 2;
 }

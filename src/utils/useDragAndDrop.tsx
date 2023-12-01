@@ -6,13 +6,15 @@ const useDraggable = () => {
   const [offset, setOffset] = useState({ x: 0, y: 0 })
 
   const onMouseDown = useCallback(
-    (e: { preventDefault: () => void; clientX: number; clientY: number }) => {
-      e.preventDefault()
-      setIsDragging(true)
-      setOffset({
-        x: e.clientX - position.x,
-        y: e.clientY - position.y,
-      })
+    (e: { preventDefault: () => void; clientX: number; clientY: number; shiftKey: boolean }) => {
+      if (e.shiftKey) {
+        e.preventDefault()
+        setIsDragging(true)
+        setOffset({
+          x: e.clientX - position.x,
+          y: e.clientY - position.y,
+        })
+      }
     },
     [position],
   )

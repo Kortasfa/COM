@@ -5,6 +5,7 @@ type SlideType = {
   id: number
   background: string
   objects: React.ReactNode[]
+  isSelected: boolean
 }
 
 const SlideComponent = ({ id, background, objects }: SlideType) => {

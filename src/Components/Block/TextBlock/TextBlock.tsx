@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BlockType } from '../Block'
 import styles from './TextBlock.module.css'
-import useDraggable from '../../../utils/useDragAndDrop' // Import css modules stylesheet as styles
+import useDraggable from '../../../utils/useDragAndDrop'
+import useResizable from '../../../utils/useResizable'
 
 type TextBlockType = BlockType & {
   type: string
@@ -18,37 +19,61 @@ type TextBlockType = BlockType & {
 }
 export const TextBlock = ({
   type,
-  value,
-  fillColor = 'white',
-  textColor = 'black',
-  textFont = 'Arial',
-  textSize,
-  textBoldness = false,
-  textUnderlines = false,
-  textItalic = false,
-  textHighlight = '',
-  sizeX,
-  sizeY,
+  value: initialValue,
+  fillColor: initialFillColor = 'white',
+  textColor: initialTextColor = 'black',
+  textFont: initialTextFont = 'Arial',
+  textSize: initialTextSize,
+  textBoldness: initialTextBoldness = false,
+  textUnderlines: initialTextUnderlines = false,
+  textItalic: initialTextItalic = false,
+  textHighlight: initialTextHighlight = '',
+  sizeX = 50,
+  sizeY = 50,
   coordinatesX,
   coordinatesY,
+  scalePercent = 10,
 }: TextBlockType) => {
-  const { position, onMouseDown, onMouseMove, onMouseUp } = useDraggable()
+  const [value, setValue] = useState(initialValue)
+  const [textColor, setTextColor] = useState(initialTextColor)
+  const [fillColor, setFillColor] = useState(initialFillColor)
+  const [textFont, setTextFont] = useState(initialTextFont)
+  const [textSize, setTextSize] = useState(initialTextSize)
+  const [textBoldness, setTextBoldness] = useState(initialTextBoldness)
+  const [textUnderlines, setTextUnderlines] = useState(initialTextUnderlines)
+  const [textItalic, setTextItalic] = useState(initialTextItalic)
+  const [textHighlight, setTextHighlight] = useState(initialTextHighlight)
+  const { position, onMouseDown: onMouseDownDrag, onMouseMove, onMouseUp } = useDraggable()
+  const { size, onMouseDownResize } = useResizable(sizeX, sizeY)
+  const handleTextChange = (event: any) => {
+    setValue(event.target.value)
+  }
+  const handleMouseDown = (e: any) => {
+    if (e.target.getAttribute('data-resizer')) {
+      onMouseDownResize(e)
+    } else {
+      onMouseDownDrag(e)
+    }
+  }
+
   return (
     <div onMouseMove={onMouseMove} onMouseUp={onMouseUp}>
       <div
         className={styles.textBlockContainer}
         style={{
           backgroundColor: fillColor,
-          width: sizeX ? `${sizeX}%` : 'auto',
-          height: sizeY ? `${sizeY}%` : 'auto',
+          width: `${size.width}px`,
+          height: `${size.height}px`,
           position: 'absolute',
           left: coordinatesX ? `${position.x}px` : 'auto',
           top: coordinatesY ? `${position.y}px` : 'auto',
         }}
-        onMouseDown={onMouseDown}
+        onMouseDown={handleMouseDown}
       >
         <div
           className={styles.textBlock}
+          contentEditable={true}
+          onInput={handleTextChange}
           style={{
             color: textColor,
             fontFamily: textFont,
@@ -61,6 +86,10 @@ export const TextBlock = ({
         >
           {value}
         </div>
+        <div
+          data-resizer
+          style={{ width: '10px', height: '10px', position: 'absolute', bottom: 0, right: 0, cursor: 'nwse-resize' }}
+        />
       </div>
     </div>
   )

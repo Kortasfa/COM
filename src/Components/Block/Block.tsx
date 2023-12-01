@@ -6,6 +6,7 @@ type BlockType = {
   coordinatesY: number
   sizeX?: number
   sizeY?: number
+  scalePercent?: number
 }
 
 export type { BlockType }
