@@ -4,16 +4,16 @@ type PictureBase64 = {
 
 type PictureUrl = {
   PictureUrl: string;
-}
+};
 
 type GraphicObject = {
   fillColor: string;
   figureType: "rectangle" | "triangle" | "circle";
 };
 
-type ImageBlock =  {
+type ImageBlock = {
   type: "image";
-  src: PictureBase64| PictureUrl;
+  src: PictureBase64 | PictureUrl;
   opacity?: number;
 };
 
@@ -43,11 +43,11 @@ type Block = {
 
 type BackgroundColor = {
   BackgroundColor: string;
-}
+};
 
 type Slide = {
   ID: number;
-  background: PictureBase64| PictureUrl | BackgroundColor;
+  background: PictureBase64 | PictureUrl | BackgroundColor;
   objects: Array<Block>;
 };
 

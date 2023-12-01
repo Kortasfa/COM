@@ -2,8 +2,10 @@ import React, { useRef } from 'react'
 import { exportSlidesToJson } from './Export'
 import workspaceStyles from '../Workspace.module.css'
 import { SlideProps, transformData } from './Import'
+import { SelectionSlides } from '../Selection/Selection'
+import { startSlideData } from '../StartPanel/startSlide'
 
-const SlideDataManager = ({ slidesData, setSlidesData }: SlideProps) => {
+const SlideDataManager = ({ slidesData, setSlidesData, selectSlide, onSelectSlide }: SlideProps & SelectionSlides) => {
   const fileInputRef = useRef<HTMLInputElement>(null)
 
   const handleExportClick = () => {
@@ -12,8 +14,24 @@ const SlideDataManager = ({ slidesData, setSlidesData }: SlideProps) => {
     }
   }
 
-  const handleButtonClick = () => {
+  const handleImportClick = () => {
     fileInputRef.current?.click()
+  }
+
+  const handleDeleteClick = () => {
+    if (selectSlide >= 0 && slidesData) {
+      const newSlidesData = slidesData?.filter((slide) => slide !== slidesData[selectSlide])
+      setSlidesData(newSlidesData)
+
+      onSelectSlide(selectSlide - 1)
+    }
+  }
+
+  const handleAddClick = () => {
+    if (slidesData) {
+      const combinedSlidesData = [...startSlideData, ...slidesData]
+      setSlidesData(combinedSlidesData)
+    }
   }
 
   const handleFileLoader = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -43,7 +61,9 @@ const SlideDataManager = ({ slidesData, setSlidesData }: SlideProps) => {
         accept=".json"
       />
       <button onClick={handleExportClick}>Export</button>
-      <button onClick={handleButtonClick}>Import</button>
+      <button onClick={handleImportClick}>Import</button>
+      <button onClick={handleDeleteClick}>Delete</button>
+      <button onClick={handleAddClick}>Add</button>
     </div>
   )
 }

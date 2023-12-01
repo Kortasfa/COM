@@ -5,6 +5,13 @@ import React from 'react'
 import { TextBlock } from '../Block/TextBlock/TextBlock'
 import { ImageBlock } from '../Block/ImageBlock/ImageBlock'
 import { GraphicObject } from '../Block/GraphicObject/GraphicObject'
+
+const generateUniqueID = () => {
+  const now = Date.now()
+  const random = Math.floor(Math.random() * 1000)
+  return now + random
+}
+
 const createBlockComponent = (block: Block) => {
   switch (block.blockContent.type) {
     case 'text':
@@ -50,7 +57,12 @@ const createBlockComponent = (block: Block) => {
 }
 const createSlideComponent = (slide: Slide) => {
   return (
-    <SlideComponent id={slide.ID} background={slide.background} objects={slide.objects.map(createBlockComponent)} />
+    <SlideComponent
+      id={generateUniqueID()}
+      background={slide.background}
+      objects={slide.objects.map(createBlockComponent)}
+      isSelected={false}
+    />
   )
 }
 

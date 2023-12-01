@@ -20,7 +20,7 @@ const GraphicObject = ({
   coordinatesX,
   fillColor = 'black',
   graphicObjectType,
-  scalePercent,
+  scalePercent = 10,
 }: GraphicObjectType) => {
   const { position, onMouseDown, onMouseMove, onMouseUp } = useDraggable()
   const commonStyle: React.CSSProperties = {

@@ -16,7 +16,7 @@ export const ImageBlock = ({
   sizeY = 5,
   coordinatesX,
   coordinatesY,
-  scalePercent,
+  scalePercent = 10,
 }: ImageBlockType) => {
   const { position, onMouseDown, onMouseMove, onMouseUp } = useDraggable()
   return (

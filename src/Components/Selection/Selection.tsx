@@ -3,8 +3,9 @@ import SelectionSlide from './SelectionSlide/SelectionSlide'
 import React from 'react'
 
 export type SelectionSlides = {
-  selectSlide: (index: number) => void
-  selectObject: number[]
+  selectSlide: number
+  onSelectSlide: (index: number) => void
+  selectObject?: number[]
 }
 
 // export default function Selection({ selectSlide, selectObject }: SelectionSlides) {

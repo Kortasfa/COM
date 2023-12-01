@@ -1,6 +1,6 @@
 .buttons {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .workspace {
   display: flex;
@@ -42,7 +42,7 @@
 }
 
 .loader {
-    display: none;
+  display: none;
 }
 
 .slidesView {

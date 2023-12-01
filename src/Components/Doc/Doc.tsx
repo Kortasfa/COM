@@ -1,12 +1,11 @@
 import React from 'react'
 
 export type DocType = {
-  name: string
   slides: JSX.Element[]
-  updateData: (data: JSX.Element[]) => void
+  onSelectSlide: (index: number) => void
 }
 
-export const Doc = ({ slides, onSelectSlide, updateData }: DocType & { onSelectSlide: (index: number) => void }) => {
+export const Doc = ({ slides, onSelectSlide }: DocType) => {
   return (
     <div style={{ width: '100%', height: '100%' }}>
       {slides.map((Component, index) => (

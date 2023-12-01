@@ -58,6 +58,7 @@ const transformData = (jsonData: JSX.Element[]) => {
                 coordinatesY={obj.props.coordinatesY}
                 textSize={obj.props.textSize}
                 value={obj.props.value}
+                scalePercent={10}
               />
             )
           case 'image':
@@ -72,6 +73,7 @@ const transformData = (jsonData: JSX.Element[]) => {
                 sizeY={obj.props.sizeY}
                 src={obj.props.src}
                 opacity={obj.props.opacity}
+                scalePercent={10}
               />
             )
           case 'figure':
@@ -83,6 +85,7 @@ const transformData = (jsonData: JSX.Element[]) => {
                 coordinatesX={obj.props.coordinatesX}
                 coordinatesY={obj.props.coordinatesY}
                 graphicObjectType={obj.props.graphicObjectType}
+                scalePercent={10}
               />
             )
           default:
@@ -96,6 +99,7 @@ const transformData = (jsonData: JSX.Element[]) => {
           id={slide.props.id}
           background={slide.props.background}
           objects={objects}
+          isSelected={false}
         />
       )
     })

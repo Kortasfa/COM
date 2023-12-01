@@ -1,5 +1,5 @@
 import React from 'react'
-import { Slide, Block} from './PresentationMakerStructure'
+import { Slide, Block } from './PresentationMakerStructure'
 import { SlideComponent } from '../Components/Slide/Slide'
 import { TextBlock } from '../Components/Block/TextBlock/TextBlock'
 import { GraphicObject } from '../Components/Block/GraphicObject/GraphicObject'
@@ -52,7 +52,12 @@ const createBlockComponent = (block: Block) => {
 
 const createSlideComponent = (slide: Slide) => {
   return (
-    <SlideComponent id={slide.ID} background={slide.background} objects={slide.objects.map(createBlockComponent)} />
+    <SlideComponent
+      isSelected={false}
+      id={slide.ID}
+      background={slide.background}
+      objects={slide.objects.map(createBlockComponent)}
+    />
   )
 }
 
