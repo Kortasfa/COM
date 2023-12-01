@@ -43,7 +43,7 @@ const SlideDataManager = ({ slidesData, setSlidesData, selectSlide, onSelectSlid
         if (typeof result === 'string') {
           const newData = JSON.parse(result)
           const transformedSlides = transformData(newData)
-          if (transformedSlides) {
+          if (transformedSlides && transformedSlides.length > 0) {
             setSlidesData(transformedSlides)
           }
         }

@@ -7,10 +7,43 @@
     <list default="true" id="1ba0871a-c9ba-4d3c-896a-926a4f7b7887" name="Changes" comment="korta hooks added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Block/Block.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/Block.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Block/GraphicObject/GraphicObject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/GraphicObject/GraphicObject.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Block/ImageBlock/ImageBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/ImageBlock/ImageBlock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Block/TextBlock/TextBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Block/TextBlock/TextBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Doc/Doc.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Doc/Doc.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/AddCommentButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/AddCommentButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/ChooseButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/ChooseInputMethodsButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseInputMethodsButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/ChooseLineButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ChooseLineButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/Editor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/Editor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/FigureButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/FigureButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/FormattingButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/FormattingButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/InputMethodsButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/InputMethodsButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/InsertImageButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/InsertImageButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/LineButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/LineButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/NewSlideButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/NewSlideButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/NewSlideMaketButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/NewSlideMaketButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/PrintButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/PrintButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/RedoButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/RedoButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/ScaleButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ScaleButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/ScaleValueButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/ScaleValueButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/SearchButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/SearchButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Editor/UndoButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Editor/UndoButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Selection/Selection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selection/Selection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slide/Slide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slide/Slide.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SlideManager/Export.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SlideManager/Export.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SlideManager/Import.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SlideManager/Import.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/SlideManager/SlideOrganizer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SlideManager/SlideOrganizer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Workspace.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Workspace.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StartPanel/playerStart.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StartPanel/playerStart.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StartPanel/startSlide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StartPanel/startSlide.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/WorkSpace.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/WorkSpace.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testData/PresentationMakerStructure.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/PresentationMakerStructure.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testData/Slides.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/Slides.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testData/empty.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/empty.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testData/half.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/half.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/useDragAndDrop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/useDragAndDrop.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/useResizable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/useResizable.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +53,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="korta" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +76,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "korta",
+    "git-widget-placeholder": "RLafleet-branch",
     "ignore.virus.scanning.warn.message": "true",
     "ignore_missing_gitignore": "true",
     "last_opened_file_path": "C:/Users/apppp/WebstormProjects/COM/src/Components/SlideData",
@@ -54,7 +87,7 @@
     "node.js.selected.package.stylelint": "C:\\Users\\korta\\WebstormProjects\\COM\\node_modules\\stylelint",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\korta\\WebstormProjects\\COM\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\apppp\\WebstormProjects\\COM\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>

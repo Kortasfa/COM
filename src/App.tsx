@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import SlideDataManager, { SlideDataType } from './Components/SlideManager/SlideOrganizer'
 import { WorkSpace } from './Components/WorkSpace'
 import { Header } from './Components/Header'
-import { SlidesData } from './testData/Slides'
+import { startSlideData } from './Components/StartPanel/startSlide'
 
 function App() {
-  const [slidesData, setSlidesData] = useState<SlideDataType>(SlidesData)
+  const [slidesData, setSlidesData] = useState<SlideDataType>(startSlideData)
   const [selectSlide, setSelectSlide] = useState<number>(0)
   return (
     <section>
