@@ -2,6 +2,16 @@
   display: flex;
   flex-direction: row;
 }
+
+.topPanel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 30px;
+  background-color: #f9fbfd;
+  padding-bottom: 40px;
+}
+
 .workspace {
   display: flex;
   flex-direction: row;
@@ -12,6 +22,7 @@
 
 .sidePanel {
   display: flex;
+  align-content: center;
   background-color: #f9fbfd;
   width: 200px;
   height: 100%;

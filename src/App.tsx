@@ -9,7 +9,6 @@ function App() {
   const [selectSlide, setSelectSlide] = useState<number>(0)
   return (
     <section>
-      <Header />
       <SlideDataManager
         slidesData={slidesData}
         setSlidesData={setSlidesData}

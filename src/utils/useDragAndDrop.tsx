@@ -7,7 +7,6 @@ const useDraggable = () => {
 
   const onMouseDown = useCallback(
     (e: { preventDefault: () => void; clientX: number; clientY: number; shiftKey: boolean }) => {
-      // Check if a modifier key is pressed to initiate dragging
       if (e.shiftKey) {
         e.preventDefault()
         setIsDragging(true)

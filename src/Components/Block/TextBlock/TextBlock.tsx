@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { BlockType } from '../Block'
 import styles from './TextBlock.module.css'
 import useDraggable from '../../../utils/useDragAndDrop'
-import useResizable from '../../../utils/useResizable' // Import css modules stylesheet as styles
+import useResizable from '../../../utils/useResizable'
 
 type TextBlockType = BlockType & {
   type: string
