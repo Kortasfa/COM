@@ -4,12 +4,8 @@ import topPanelStyles from '../Top-panel.module.css'
 import icon from '../../images/editor/textFieldIcon.svg'
 
 const TextFieldButton = () => {
-  const [click, setClick] = useState(0)
-  useEffect(() => {
-    <TextBlock id={1} coordinatesX={3} coordinatesY={3} type={'text'} value={'Введите текст'} />
-  })
   return (
-    <button className={topPanelStyles.textFieldButton} onClick={() => setClick(click)}>
+    <button className={topPanelStyles.textFieldButton} >
       <img src={icon} alt={''} />
     </button>
   )

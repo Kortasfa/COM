@@ -13,12 +13,13 @@ const GraphicObject = ({
   type,
   id,
   borderSize = 1,
-  fillColor = 'black',
-  graphicObjectType,
   sizeX = 5,
   sizeY = 5,
-  coordinatesX,
+  borderColor = 'black',
   coordinatesY,
+  coordinatesX,
+  fillColor = 'black',
+  graphicObjectType,
 }: GraphicObjectType) => {
   const { position, onMouseDown, onMouseMove, onMouseUp } = useDraggable()
   const commonStyle: React.CSSProperties = {
@@ -53,7 +54,6 @@ const GraphicObject = ({
     </div>
   )
 
-  // Choose the appropriate graphic type
   let render
   if (graphicObjectType === 'rectangle') {
     render = rectangle

@@ -1,3 +1,7 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
 .workspace {
     display: flex;
     flex-direction: row;
@@ -37,12 +41,47 @@
     height: 13.6%
 }
 
+.loader {
+    display: none;
+}
+
 .slidesView {
-    /* background-color: greenyellow; */
     background-color: rgb(255, 255, 255);
     border: 1px solid #EAEAEA;
     position: relative;
     top: 17px;
     width: 77%;
     height: 93.7%;
+}
+
+.importButton, .exportButton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    /*width: 14.05%;*/
+    height: 56%;
+    border-color: #918f8e;
+    border-radius: 4px;
+    border-width: 1px;
+    text-align: center;
+}
+
+.importButton:hover
+{
+    background-color: #edf2fa;
+    border-width: 1px;
+}
+
+.exportButton:hover
+{
+    background-color: #edf2fa;
+    border-width: 1px;
+}
+
+.importExportButton
+{
+    display: flex;
+    gap: 1%;
 }
